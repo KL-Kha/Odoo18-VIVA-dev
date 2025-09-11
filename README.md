@@ -1,0 +1,1 @@
+# Odoo18-VIVA-dev
