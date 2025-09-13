@@ -1,312 +1,274 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="marshmallow_site_header" name="viva_theme_website Site Header">
-        <header class="header">
-            <div class="container-wrapper">
-                <div class="container">
-                    <div class="content">
-                        <img class="logo" src="/viva_theme_website/static/src/img/Logo.png" alt="viva_theme_website Streaming Logo"/>
-                        <nav class="navigation" role="navigation" aria-label="Main navigation">
-                            <div class="link">
-                                <button class="nav-link" aria-expanded="false" aria-haspopup="true">
-                                    <span class="text">Residential</span>
-                                    <span class="arrow" aria-hidden="true">
-                                        <img class="icon" t-att-src="'/viva_theme_website/static/src/img/icon-3.svg'" alt=""/>
-                                    </span>
-                                </button>
-                            </div>
-                            <div class="link">
-                                <button class="nav-link" aria-expanded="false" aria-haspopup="true">
-                                    <span class="text">Commercial</span>
-                                    <span class="arrow" aria-hidden="true">
-                                        <img class="icon" t-att-src="'/viva_theme_website/static/src/img/icon.svg'" alt=""/>
-                                    </span>
-                                </button>
-                            </div>
-                            <div class="link">
-                                <button class="nav-link" aria-expanded="false" aria-haspopup="true">
-                                    <span class="text">Support Hub</span>
-                                    <span class="arrow" aria-hidden="true">
-                                        <img class="icon" t-att-src="'/viva_theme_website/static/src/img/icon-2.svg'" alt=""/>
-                                    </span>
-                                </button>
-                            </div>
-                            <div class="link">
-                                <a href="#about" class="nav-link">
-                                    <span class="text">About</span>
-                                </a>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="frame">
-                        <div class="navigation-actions">
-                            <button class="text-wrapper" type="button">
-                                <span class="div">Get A Quote</span>
-                            </button>
-                        </div>
-                        <div class="navigation-actions">
-                            <button class="div-wrapper" type="button">
-                                <span class="text-2">Login</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
     </template>
 
-    <template id="marshmallow_site_footer" name="viva_theme_website Site Footer">
-        <footer class="footer">
-            <section class="CTA" aria-labelledby="cta-heading">
-                <div class="content">
-                    <header class="heading-and">
-                        <h1 id="cta-heading" class="heading">Ready to see what you could actually save?</h1>
-                        <p class="text-wrapper">Get started by using our cost calculator or request a quote today.</p>
-                    </header>
-                    <div class="actions" role="group" aria-label="Call to action buttons">
-                        <a href="#quote" class="frame" role="button" aria-label="Get a quote">
-                            <span class="text">Get A Quote</span>
-                        </a>
-                        <a href="#calculator" class="div-wrapper" role="button" aria-label="Cost calculator">
-                            <span class="div">Cost Calculator</span>
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <section class="content-wrapper">
-                <nav class="content-2" aria-label="Footer navigation">
-                    <div class="footer-links-column">
-                        <h2 class="heading-2">Residential Services</h2>
-                        <ul class="footer-links" role="list">
-                            <li class="footer-link">
-                                <a href="#streaming-setup" class="buttons-button">
-                                    <span class="text-2">Streaming Setup</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#wifi-optimization" class="buttons-button">
-                                    <span class="text-2">Wi-Fi Optimization</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#tv-av-installation" class="buttons-button">
-                                    <span class="text-2">TV / AV Installation</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-links-column">
-                        <h2 class="heading-2">Commercial Services</h2>
-                        <ul class="footer-links" role="list">
-                            <li class="footer-link">
-                                <a href="#office-av" class="buttons-button">
-                                    <span class="text-2">Office AV</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#small-business-security" class="buttons-button">
-                                    <span class="text-2">Small Business Secutiry</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#networking" class="buttons-button">
-                                    <span class="text-2">Networking</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-links-column">
-                        <h2 class="heading-2">Support Hub</h2>
-                        <ul class="footer-links" role="list">
-                            <li class="footer-link">
-                                <a href="#faqs" class="buttons-button">
-                                    <span class="text-2">FAQs</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#post-install-guides" class="buttons-button">
-                                    <span class="text-2">Post-Install Guides</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#case-studies" class="buttons-button">
-                                    <span class="text-2">Case Studies</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#contact" class="buttons-button">
-                                    <span class="text-2">Contact</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-links-column">
-                        <h2 class="heading-2">Other</h2>
-                        <ul class="footer-links" role="list">
-                            <li class="footer-link">
-                                <a href="#get-quote" class="buttons-button">
-                                    <span class="text-2">Get A Quote</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#cost-calculator" class="buttons-button">
-                                    <span class="text-2">Cost Calculator</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#about" class="buttons-button">
-                                    <span class="text-2">About</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#referral-program" class="buttons-button">
-                                    <span class="text-2">Referral Program</span>
-                                </a>
-                            </li>
-                            <li class="buttons-button-wrapper">
-                                <a href="#login" class="button">
-                                    <span class="text-2">Login</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </section>
-            <div class="container">
-                <div class="content-3">
-                    <img class="img" src="img/frame-28.svg" alt="viva_theme_website Streaming logo" />
-                    <p class="footer-text">
- © 2025 viva_theme_website Streaming. All rights reserved. Designed &amp; Developed by LLT Group.
-                    </p>
-                </div>
-            </div>
-        </footer>
-    </template>
+    <template id="marshmallow_site_footer" name="viva_theme_website Site Footer" inherit_id="website.layout">
+        <xpath expr="//footer" position="attributes">
+            <attribute name="t-if">False</attribute>
+        </xpath>
+        <xpath expr="//footer" position="after">
+            <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc">
+                <div id="footer" class="oe_structure oe_structure_solo o_editable o_dirty" data-oe-id="1471" data-oe-xpath="/data/xpath/div" data-oe-model="ir.ui.view" data-oe-field="arch" contenteditable="true">
+                    <section class="s_text_block pb16 pt0" data-snippet="s_text_block" data-name="Text">
+                        <div class="container">
+                            <div class="row o_grid_mode" data-row-count="15">
+                                <div class="o_colored_level o_grid_item g-height-4 g-col-lg-8 col-lg-8 o_draggable" style="grid-area: 1 / 3 / 5 / 11; z-index: 3; border-color: rgba(255, 255, 255, 0.6) !important; --grid-item-padding-x: 20px;" data-name="Block">
+                                    <h1 style="text-align: center;">
+                                        <span style="font-size: 3.75rem;">
+                                            <font style="color: rgb(63, 141, 232);">
+                                                <strong>Ready to see what you could actually save?</strong>
+                                            </font>
+                                        </span>
+                                    </h1>
+                                    <p style="text-align: center;">
+                                        <font style="color: rgb(120, 120, 120);">Get started by using our cost calculator or request a quote today.</font>
+                                    </p>
+                                </div>
+                                <div class="o_colored_level o_grid_item g-height-5 g-col-lg-10 col-lg-10" style="grid-area: 8 / 2 / 13 / 12; z-index: 3; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
+                                    <div class="o_text_columns">
+                                        <div class="row">
+                                            <div class="col-3 o_colored_level">
+                                                <p>
+                                                    <span style="font-size: 0.875rem;">
+                                                        <font style="color: rgb(113, 118, 128);">
+                                                            <strong>Residential Services</strong>
+                                                        </font>
+                                                    </span>
+                                                </p>
+                                                <ul class="list-unstyled">
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Streaming Setup</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Wi-Fi Optimization</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>TV / AV Installation</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <p style="text-align: center;">
+                                                    <font style="color: rgb(120, 120, 120);">​</font>
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                            <div class="col-3 o_colored_level">
+                                                <p>
+                                                    <span style="font-size: 0.875rem;">
+                                                        <font style="color: rgb(113, 118, 128);">
+                                                            <strong>Commercial Services</strong>
+                                                        </font>
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                                <ul class="list-unstyled">
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Office AV</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Small Business Secutiry</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Networking</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-3 o_colored_level">
+                                                <p>
+                                                    <span style="font-size: 0.875rem;">
+                                                        <font style="color: rgb(113, 118, 128);">
+                                                            <strong>Support Hub</strong>
+                                                        </font>
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                                <ul class="list-unstyled">
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>FAQs</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Post-Install Guides</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Case Studies</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Contact</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-3 o_colored_level">
+                                                <p>
+                                                    <span style="font-size: 0.875rem;">
+                                                        <font style="color: rgb(113, 118, 128);">
+                                                            <strong>Other</strong>
+                                                        </font>
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                                <ul class="list-unstyled">
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Get A Quote</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Cost Calculator</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>About</strong>
+                                                            </font>
+                                                        </a>​
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Referral Program</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-item py-1">
+                                                        <a href="/">
+                                                            <font style="color: rgb(83, 88, 98);">
+                                                                <strong>Login</strong>
+                                                            </font>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-    <template id="marshmallow_footer" name="viva_theme_website Footer">
-        <footer class="footer">
-            <section class="CTA">
-                <div class="content">
-                    <header class="heading-and">
-                        <h2 class="heading">Ready to see what you could actually save?</h2>
-                        <p class="text-wrapper">Get started by using our cost calculator or request a quote today.</p>
-                    </header>
-                    <div class="actions">
-                        <a href="#quote" class="frame" role="button" aria-label="Get a quote for our services">
-                            <span class="text">Get A Quote</span>
-                        </a>
-                        <a href="#calculator" class="div-wrapper" role="button" aria-label="Use our cost calculator">
-                            <span class="div">Cost Calculator</span>
-                        </a>
-                    </div>
+                                <div class="o_colored_level o_grid_item g-col-lg-12 g-height-1 col-lg-12 o_draggable" style="z-index: 3; grid-area: 6 / 1 / 7 / 13; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
+                                    <div class="s_hr pt32 pb32 oe_snippet_body o_draggable" data-snippet="s_hr" data-name="Separator">
+                                        <hr class="w-100 mx-auto" style="border-top-color: rgb(229, 229, 229);" contenteditable="false"/>
+                                    </div>
+                                </div>
+
+                                <div class="o_colored_level o_grid_item g-height-1 g-col-lg-5 col-lg-5 o_draggable" style="z-index: 3; grid-area: 13 / 1 / 14 / 6; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
+                                    <div class="s_hr oe_snippet_body pt16 o_draggable pb0" data-snippet="s_hr" data-name="Separator">
+                                        <hr class="w-100 mx-auto" style="border-top-color: rgb(229, 229, 229);" contenteditable="false"/>
+                                    </div>
+                                </div>
+
+                                <div class="o_colored_level o_grid_item g-col-lg-8 g-height-2 col-lg-8 o_draggable" style="z-index: 3; grid-area: 12 / 3 / 14 / 11; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
+                                    <p style="text-align: center;">
+                                        <br/>
+                                    </p>
+                                    <div class="s_social_media o_not_editable text-center no_icon_color o_draggable" data-snippet="s_social_media" data-name="Social Media" contenteditable="false">
+                                        <h4 class="s_social_media_title o_default_snippet_text d-none" contenteditable="true">Social Media</h4>
+                                        <a href="/website/social/facebook" class="s_social_media_facebook" target="_blank" aria-label="Facebook">
+                                            <i class="fa fa-facebook o_editable_media rounded-empty-circle shadow-sm" style="color: rgb(0, 100, 168); border-color: rgb(229, 229, 229); background-color: rgb(255, 255, 255);" contenteditable="false">​</i>
+                                        </a>
+                                        <a href="/website/social/instagram" class="s_social_media_instagram" target="_blank" aria-label="Instagram">
+                                            <i class="fa fa-instagram o_editable_media rounded-empty-circle shadow-sm" style="color: rgb(0, 100, 168); border-color: rgb(229, 229, 229);" contenteditable="false">​</i>
+                                        </a>
+                                        <a href="/website/social/linkedin" class="s_social_media_linkedin" target="_blank" aria-label="LinkedIn">
+                                            <i class="fa fa-linkedin o_editable_media rounded-empty-circle shadow-sm" style="color: rgb(0, 100, 168); border-color: rgb(229, 229, 229);" contenteditable="false">​</i>
+                                        </a>
+                                        <a href="/website/social/twitter" class="s_social_media_twitter" target="_blank" aria-label="X">
+                                            <i class="fa o_editable_media fa-twitter rounded-empty-circle shadow-sm" style="color: rgb(0, 100, 168); border-color: rgb(229, 229, 229); background-color: rgb(255, 255, 255);" contenteditable="false">​</i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="o_colored_level o_grid_item g-height-1 g-col-lg-5 col-lg-5" style="z-index: 2; grid-area: 13 / 8 / 14 / 13; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
+                                    <div class="s_hr pb32 oe_snippet_body pt16" data-snippet="s_hr" data-name="Separator">
+                                        <hr class="w-100 mx-auto" style="border-top-color: rgb(229, 229, 229);" contenteditable="false"/>
+                                    </div>
+                                </div>
+
+                                <div class="o_colored_level o_grid_item g-height-1 g-col-lg-12 col-lg-12" style="z-index: 3; grid-area: 15 / 1 / 16 / 13; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
+                                    <p style="text-align: center;">
+                                        <span style="font-size: 0.875rem;">
+                                            <font style="color: rgb(113, 118, 128);">© 2025 Marshmallow Streaming. All rights reserved. Designed &amp; Developed by LLT Group.</font>
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div class="o_grid_item o_colored_level g-height-1 g-col-lg-5 col-lg-5 o_draggable" style="--grid-item-padding-y: 0px; --grid-item-padding-x: 0px; z-index: 1; grid-area: 5 / 5 / 6 / 10; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
+                                    <p style="text-align: center;">
+                                        <font style="color: rgb(120, 120, 120);"></font>
+                                        <a class="o_translate_inline btn btn-custom text-o-color-3 mb-2" href="/website/info" style="border-width: 2px; border-style: solid; border-color: rgb(244, 138, 12);">
+                                            <span style="font-size: 0.8125rem;">Cost Calculator</span>
+                                        </a>
+                                        <font style="color: rgb(120, 120, 120);"></font>
+                                    </p>
+                                </div>
+
+                                <div class="o_grid_item o_colored_level g-height-1 g-col-lg-4 col-lg-4" style="--grid-item-padding-y: 0px; --grid-item-padding-x: 0px; z-index: 9; grid-area: 5 / 4 / 6 / 8; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
+                                    <p style="text-align: center;">
+                                        <font style="color: rgb(120, 120, 120);"></font>
+                                        <a class="o_translate_inline btn btn-custom text-o-color-4 bg-o-color-3 mb-2" href="/website/info" style="border-width: 1px; border-style: solid;">
+                                            <span style="font-size: 0.8125rem;">Get a quote</span>
+                                        </a>
+                                        <font style="color: rgb(120, 120, 120);"></font>
+                                    </p>
+                                </div>
+
+                                <div class="o_colored_level o_grid_item g-height-4 g-col-lg-3 col-lg-3" style="border-color: rgba(255, 255, 255, 0.6) !important; --grid-item-padding-x: 0px; z-index: 0; grid-area: 1 / 1 / 5 / 4;" data-name="Block">
+                                    <p style="text-align: center;">
+                                        <font style="color: rgb(120, 120, 120);">
+                                            <img src="/web/image/593-7e6d8da0/Group%20889.png" alt="" class="img img-fluid o_we_custom_image" data-mimetype="image/webp" data-original-id="592" data-original-src="/web/image/592-d089a4a6/Group%20889.png" data-mimetype-before-conversion="image/png" data-resize-width="260" loading="lazy"/>
+                                        </font>
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </section>
-            <div class="content-wrapper">
-                <nav class="content-2" aria-label="Footer navigation">
-                    <div class="footer-links-column">
-                        <h3 class="heading-2">Residential Services</h3>
-                        <ul class="footer-links">
-                            <li class="footer-link">
-                                <a href="#streaming-setup" class="buttons-button">
-                                    <span class="text-2">Streaming Setup</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#wifi-optimization" class="buttons-button">
-                                    <span class="text-2">Wi-Fi Optimization</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#tv-av-installation" class="buttons-button">
-                                    <span class="text-2">TV / AV Installation</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-links-column">
-                        <h3 class="heading-2">Commercial Services</h3>
-                        <ul class="footer-links">
-                            <li class="footer-link">
-                                <a href="#office-av" class="buttons-button">
-                                    <span class="text-2">Office AV</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#small-business-security" class="buttons-button">
-                                    <span class="text-2">Small Business Security</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#networking" class="buttons-button">
-                                    <span class="text-2">Networking</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-links-column">
-                        <h3 class="heading-2">Support Hub</h3>
-                        <ul class="footer-links">
-                            <li class="footer-link">
-                                <a href="#faqs" class="buttons-button">
-                                    <span class="text-2">FAQs</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#post-install-guides" class="buttons-button">
-                                    <span class="text-2">Post-Install Guides</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#case-studies" class="buttons-button">
-                                    <span class="text-2">Case Studies</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#contact" class="buttons-button">
-                                    <span class="text-2">Contact</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-links-column">
-                        <h3 class="heading-2">Other</h3>
-                        <ul class="footer-links">
-                            <li class="footer-link">
-                                <a href="#get-quote" class="buttons-button">
-                                    <span class="text-2">Get A Quote</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#cost-calculator" class="buttons-button">
-                                    <span class="text-2">Cost Calculator</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#about" class="buttons-button">
-                                    <span class="text-2">About</span>
-                                </a>
-                            </li>
-                            <li class="footer-link">
-                                <a href="#referral-program" class="buttons-button">
-                                    <span class="text-2">Referral Program</span>
-                                </a>
-                            </li>
-                            <li class="buttons-button-wrapper">
-                                <a href="#login" class="button" role="button" aria-label="Login to your account">
-                                    <span class="text-2">Login</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="container">
-                <div class="content-3">
-                    <img class="frame-2" t-att-src="'/viva_theme_website/static/src/img/frame-28.svg'" alt="viva_theme_website Streaming logo"/>
-                    <p class="footer-text">© 2025 viva_theme_website Streaming. All rights reserved. Designed &amp; Developed by LLT Group.</p>
-                </div>
-            </div>
-        </footer>
+            </footer>
+        </xpath>
     </template>
 
     <template id="marshmallow_hero" name="viva_theme_website Hero Section">
@@ -417,610 +379,669 @@
     </template>
 
     <template id="page_marshmallow_homepage" name="viva_theme_website Homepage">
-        <t t-set="no_header" t-value="True"/>
-        <t t-set="no_footer" t-value="True"/>
         <t t-set="title">viva_theme_website Streaming - Cut the Cord Once and For All</t>
         <t t-set="page_description">
       Professional streaming setup, Wi-Fi optimization, and AV installation services. Get started with our cost calculator or request a quote today.
         </t>
-
         <t t-call="website.layout">
-            <div id="wrap">
-                <main class="hero o_full_width">
-                    <!-- HEADER RIÊNG -->
-    <header class="header">
-        <div class="container-wrapper">
-            <div class="container">
-                <div class="content">
-                    <img class="logo" src="/viva_theme_website/static/src/img/Logo.png" alt="viva_theme_website Streaming Logo"/>
-                    <nav class="navigation" role="navigation" aria-label="Main navigation">
-                        <div class="link">
-                            <button class="nav-link" aria-expanded="false" aria-haspopup="true">
-                                <span class="text">Residential</span>
-                                <span class="arrow" aria-hidden="true">
-                                    <img class="icon" t-att-src="'/viva_theme_website/static/src/img/icon-3.svg'" alt=""/>
-                                </span>
-                            </button>
-                        </div>
-                        <div class="link">
-                            <button class="nav-link" aria-expanded="false" aria-haspopup="true">
-                                <span class="text">Commercial</span>
-                                <span class="arrow" aria-hidden="true">
-                                    <img class="icon" t-att-src="'/viva_theme_website/static/src/img/icon.svg'" alt=""/>
-                                </span>
-                            </button>
-                        </div>
-                        <div class="link">
-                            <button class="nav-link" aria-expanded="false" aria-haspopup="true">
-                                <span class="text">Support Hub</span>
-                                <span class="arrow" aria-hidden="true">
-                                    <img class="icon" t-att-src="'/viva_theme_website/static/src/img/icon-2.svg'" alt=""/>
-                                </span>
-                            </button>
-                        </div>
-                        <div class="link">
-                            <a href="#about" class="nav-link">
-                                <span class="text">About</span>
-                            </a>
-                        </div>
-                    </nav>
-                </div>
-                <div class="frame">
-                    <div class="navigation-actions">
-                        <button class="text-wrapper" type="button">
-                            <span class="div">Get A Quote</span>
-                        </button>
-                    </div>
-                    <div class="navigation-actions">
-                        <button class="div-wrapper" type="button">
-                            <span class="text-2">Login</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+            <t t-set="pageName" t-value="'homepage'"/>
+            <div id="wrap" class="oe_structure oe_empty">
+                <section class="s_cover parallax s_parallax_is_fixed o_cc o_cc5 o_colored_level pt96 pb0" data-scroll-background-ratio="1" data-snippet="s_cover" data-name="Cover">
+                    <span class="s_parallax_bg oe_img_bg o_bg_img_center o_bg_img_origin_border_box" style="background-position: 50% 75%; background-image: url(&quot;/viva_theme_website/static/src/img/homepage/hompage_main_section.jpg&quot;);" data-mimetype="image/webp" data-original-id="549" data-original-src="/viva_theme_website/static/src/img/homepage/hompage_main_section.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="1920"/>
+                    <div class="o_we_bg_filter bg-black-50"/>
+                    <div class="s_allow_columns container">
+                        <div class="row o_grid_mode" data-row-count="12">
+                            <div class="o_colored_level o_grid_item g-height-11 g-col-lg-6 col-lg-6" style="grid-area: 2 / 1 / 13 / 7; z-index: 1;">
+                                <h1 style="text-align: left;">
+                                    <span style="font-size: 3.75rem;">
+                                        <strong>Helping you cut the cord once and for all.</strong>
+                                    </span>
+                                </h1>
+                                <p style="text-align: left; margin-bottom: 0px;">
+                                    <span style="font-size: 1.125rem;">Seamless transition, zero hassle for reliable, high-quality</span>
+                                </p>
+                                <p style="text-align: left;">
+                                    <span style="font-size: 1.125rem;">streaming — so you can focus on what matters: your content.</span>
+                                </p>
+                                <p style="text-align: center;">
+                                    <br/>
+                                </p>
+                                <p style="text-align: center;">
+                                    <br/>
+                                </p>
+                                <div class="o_text_columns">
+                                    <div class="row">
+                                        <div class="col-4 o_colored_level">
+                                            <h1 style="text-align: left;">
+                                                <span class="h1-fs">
+                                                    <strong>
+                                                        <font class="text-o-color-3">50%</font>
+                                                    </strong>
+                                                </span>
+                                            </h1>
+                                        </div>
+                                        <div class="col-4 o_colored_level">
+                                            <h1 style="text-align: left;">
+                                                <strong>
+                                                    <font class="text-o-color-3">44%</font>
+                                                </strong>
+                                            </h1>
+                                        </div>
+                                        <div class="col-4 o_colored_level">
+                                            <h1 style="text-align: left;">
+                                                <strong>
+                                                    <font class="text-o-color-3">9​9%</font>
+                                                </strong>
+                                            </h1>
+                                        </div>
+                                        <div class="col-4 o_colored_level">
+                                            <p style="text-align: left;">
+                                                <span style="font-size: 0.875rem;">
+                                                    <strong>Monthly Bill Reduction*</strong>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="col-4 o_colored_level">
+                                            <p>
+                                                <span class="o_small-fs">
+                                                    <strong>Internet Speed Increase*</strong>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="col-4 o_colored_level">
+                                            <p>
+                                                <span class="o_small-fs">
+                                                    <strong>User satisfaction</strong>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="col-4 o_colored_level col-lg-11">
+                                            <p>
+                                                <span style="font-style: italic;" class="o_small-fs">* All figures are examples or averages of data from users.</span>
+                                                <br/>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="o_colored_level o_grid_item g-height-12 g-col-lg-4 col-lg-4" style="z-index: 2; grid-area: 1 / 9 / 13 / 13;">
+                                <div class="s_card card o_colored_level border rounded" data-vxml="001" data-snippet="s_card" data-name="Card" style="border-width: 3px !important; border-color: rgb(255, 255, 255) !important; border-radius: 27.69px !important; background-image: linear-gradient(116deg, rgba(239, 239, 239, 0.6) 0%, rgba(255, 255, 255, 0.08) 100%);">
+                                    <div class="card-body">
+                                        <section class="s_website_form pt16 pb16" data-vcss="001" data-snippet="s_website_form" data-name="Form">
+                                            <div class="container-fluid">
+                                                <form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-pre-fill="true" data-model_name="crm.lead" data-success-mode="redirect" data-success-page="/contactus-thank-you">
+                                                    <div class="s_website_form_rows row s_col_no_bgcolor">
 
-                    <!-- HERO / CARD -->
-<section class="o_full_width p-0 container-2"
-    style="background-image:url('/viva_theme_website/static/src/img/homepage/hompage_main_section.jpg');
-           background-size:cover;
-           background-position:center;
-           background-repeat:no-repeat;">
-    <!-- Inner container keeps text nicely aligned with the rest of the site -->
-    <div class="container py-5">
-        <div class="content-2">
-            <div class="heading-and">
-                <div class="frame-2">
-                    <h1 class="heading">Helping you cut the cord once and for all.</h1>
-                    <p class="supporting-text">
-                        Seamless transition, zero hassle for reliable, high-quality<br/>
-                        streaming — so you can focus on what matters: your content.
-                    </p>
-                </div>
-            </div>
 
-            <div class="frame-wrapper">
-                <div class="div-2">
-                    <div class="content-3">
-                        <div class="frame-3">
-                            <div class="text-3" aria-label="50 percent">50%</div>
-                            <p class="span-wrapper"><span class="span">Monthly Bill Reduction*</span></p>
-                        </div>
-                        <div class="frame-3">
-                            <div class="text-3" aria-label="44 percent">44%</div>
-                            <p class="text-4"><span class="span">Internet Speed Increase*</span></p>
-                        </div>
-                        <div class="frame-3">
-                            <div class="text-3" aria-label="99 percent">99%</div>
-                            <div class="text-4">User Satisfaction</div>
+
+
+
+
+
+                                                        <div class="o_colored_level col-lg-12">
+                                                            <p>
+                                                                <img src="/viva_theme_website/static/src/img/homepage/logo_1.png" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/webp" data-original-id="556" data-original-src="/viva_theme_website/static/src/img/homepage/logo_1.png" data-mimetype-before-conversion="image/png" data-resize-width="63" loading="lazy"/>
+                                                            </p>
+                                                        </div>
+                                                        <div class="o_colored_level col-lg-12">
+                                                            <h5 style="text-align: center;">
+                                                                <span class="h5-fs">
+                                                                    <strong>See How Much You Can Save.</strong>
+                                                                </span>
+                                                                <br/>
+                                                            </h5>
+                                                        </div>
+                                                        <div class="o_colored_level col-lg-12">
+                                                            <h6 style="text-align: center;">
+                                                                <strong>Step 1: Your Current Setup</strong>
+                                                            </h6>
+                                                            <p style="text-align: center;">Help us understand what you're working with.<br/>
+                                                            </p>
+                                                            <div class="s_hr pb24 pt0" data-snippet="s_hr" data-name="Separator">
+                                                                <hr class="w-100 mx-auto" style="border-top-color: rgb(255, 255, 255);"/>
+                                                            </div>
+                                                        </div>
+                                                        <div data-name="Field" class="s_website_form_field mb-3 col-12 s_website_form_model_required" data-type="char" data-translated-name="Field">
+                                                            <label class="s_website_form_label" style="width: 500px" for="ou6hm3x8dc8p">
+                                                                <span class="s_website_form_label_content">Current Monthly Bill (Internet, TV, Landline, etc.)</span>
+                                                                <span class="s_website_form_mark">                 *</span>
+                                                            </label>
+                                                            <input class="form-control s_website_form_input" type="text" name="name" required="" placeholder="$0.00" id="ou6hm3x8dc8p" data-fill-with="undefined"/>
+                                                        </div>
+                                                        <div data-name="Field" class="s_website_form_field mb-3 col-12 s_website_form_custom s_website_form_required" data-type="many2one" data-translated-name="Field">
+                                                            <label class="s_website_form_label" style="width: 500px" for="o9stjtsux5kh">
+                                                                <span class="s_website_form_label_content">Number Of People In The Home</span>
+                                                                <span class="s_website_form_mark">                               *</span>
+                                                            </label>
+                                                            <select class="form-select s_website_form_input" name="Number Of People In The Home" required="1" id="o9stjtsux5kh">
+                                                                <option id="o9stjtsux5kh0" value="Please select..." selected="selected">Please select...</option>
+                                                                <option id="o9stjtsux5kh1" value="1 person">1 person</option>
+                                                                <option id="o9stjtsux5kh2" value="2 person">2 person</option>
+                                                                <option id="o9stjtsux5kh3" value="3 person">3 person</option>
+                                                                <option id="o9stjtsux5kh4" value="4 person">4 person</option>
+                                                                <option id="o9stjtsux5kh5" value="5+ person">5+ person</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="mb-0 py-2 col-12 s_website_form_submit text-center s_website_form_no_submit_label" data-name="Submit Button">
+                                                            <div style="width: 500px;" class="s_website_form_label"/>
+                                                            <span id="s_website_form_result"/>
+                                                            <a href="#" role="button" class="s_website_form_send btn btn-custom" style="border-width: 1px; border-style: solid; background-image: linear-gradient(135deg, rgb(244, 138, 12) 0%, rgb(250, 205, 108) 100%);">
+                                                                <span style="font-size: 0.8125rem;">Continue to next steps.</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
-                    <p class="p">* All figures are examples or averages of data from users.</p>
-                </div>
-            </div>
-        </div>
+                </section>
+                <section class="s_text_block o_colored_level pb104 pt0" data-snippet="s_text_block" data-name="Text" style="position: relative;">
+                    <div class="s_allow_columns container">
 
-        <aside class="card-wrapper">
-            <div class="card">
-                <div class="dropshadow" aria-hidden="true"/>
-                <div class="frame-4">
-                    <div class="frame-4">
-                        <header class="header-2">
-                            <img class="img" t-att-src="'/viva_theme_website/static/src/img/logo_1.png'" alt="viva_theme_website Streaming Logo"/>
-                            <div class="div-2">
-                                <h2 class="text-5">See How Much You Can Save.</h2>
-                                <p class="label">
-                                    <span class="text-wrapper-2">Step 1: Your Current Setup </span>
-                                    <span class="text-wrapper-3">Help us understand what you're working with.</span>
+
+                        <div class="row o_grid_mode" data-row-count="8">
+                            <div class="o_colored_level o_grid_item g-col-lg-8 g-height-2 col-lg-8" style="z-index: 1; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px; grid-area: 1 / 3 / 3 / 11;">
+                                <p>
+                                    <font class="text-o-color-3">
+                                        <img src="/viva_theme_website/static/src/img/homepage/background_element.png" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/webp" data-original-id="560" data-original-src="/viva_theme_website/static/src/img/homepage/background_element.png" data-mimetype-before-conversion="image/png" data-resize-width="260" loading="lazy"/>
+                                    </font>
+                                    <br/>
+                                </p>
+                                <br/>
+                            </div>
+                            <div class="o_colored_level o_grid_item g-height-6 g-col-lg-8 col-lg-8" style="z-index: 1; grid-area: 3 / 3 / 9 / 11;">
+                                <div class="o_text_columns">
+                                    <div class="row">
+                                        <div class="col-6 o_colored_level col-lg-12">
+                                            <p style="text-align: center;">
+                                                <span class="h1-fs">
+                                                    <font style="color: rgb(0, 100, 168);">
+                                                        <strong>We handle the hard part - you keep the savings.</strong>
+                                                    </font>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="col-6 o_colored_level col-lg-12">
+                                            <p style="text-align: center;">
+                                                <font style="color: rgb(120, 120, 120);">Marshmallow Streaming gives you the freedom to ditch the fees and take control of your home entertainment setup. We handle the heavy lifting—removing old gear, returning it for you, and installing the latest, no-rental alternatives that fit your needs.</font>
+                                            </p>
+                                            <p style="text-align: center;"/>
+                                        </div>
+                                        <div class="col-6 o_colored_level col-lg-12">
+                                            <p style="text-align: center;">
+                                                <font class="text-o-color-3">
+                                                    <span style="font-size: 0.875rem;">
+                                                        <strong>Learn More About Us</strong>
+                                                    </span>
+                                                </font>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    <font class="text-o-color-3">​</font>
                                 </p>
                             </div>
-                        </header>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_text_image pt80 o_colored_level pb0" data-snippet="s_text_image" data-name="Text - Image">
+                    <div class="container">
+                        <div class="row o_grid_mode" data-row-count="21">
 
-                        <form class="form" id="savings-form" role="form" aria-label="Savings calculator form">
-                            <div class="div-3">
-                                <div class="div-3">
-                                    <div class="label-wrapper">
-                                        <label for="monthly-bill" class="label-2">
-                                            <span class="text-wrapper-2">Current Monthly Bill </span>
-                                            <span class="text-wrapper-4">(Internet, TV, Landline, etc.)</span>
-                                        </label>
+                            <div class="o_colored_level o_grid_item g-col-lg-12 g-height-9 col-lg-12" style="z-index: 6; grid-area: 12 / 1 / 21 / 13;">
+                                <div class="overflow-hidden">
+                                    <div class="o_text_columns">
+                                        <div class="row">
+                                            <div class="col-4 o_colored_level">
+                                                <p>
+                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon1/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="562" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                                </p>
+                                                <h6 style="text-align: center;">
+                                                    <span style="font-size: 1.125rem;">
+                                                        <font style="color: rgb(63, 141, 232);">
+                                                            <strong>Customize Your Exact Channels</strong>
+                                                        </font>
+                                                    </span>
+                                                </h6>
+                                                <h6 style="text-align: center;">
+                                                    <span class="o_small-fs">
+                                                        <font style="color: rgb(120, 120, 120);">Choose only the channels you actually watch, no fluff. Build a lineup that fits your lifestyle perfectly.</font>
+                                                    </span>
+                                                </h6>
+                                            </div>
+                                            <div class="col-4 o_colored_level">
+                                                <p>
+                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon2/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="563" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                                </p>
+                                                <h6 style="text-align: center;">
+                                                    <span style="font-size: 1.125rem;">
+                                                        <font style="color: rgb(63, 141, 232);">
+                                                            <strong>No Rental Equipment, Fees, Hidden Taxes</strong>
+                                                        </font>
+                                                    </span>
+                                                </h6>
+                                                <h6 style="text-align: center;">
+                                                    <span class="o_small-fs">
+                                                        <font style="color: rgb(120, 120, 120);">Say goodbye to surprise charges, monthly rental fees, and the fine print cable companies love.</font>
+                                                    </span>
+                                                </h6>
+                                            </div>
+                                            <div class="col-4 o_colored_level">
+                                                <p>
+                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon3/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="564" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                                </p>
+                                                <h6 style="text-align: center;">
+                                                    <span style="font-size: 1.125rem;">
+                                                        <strong>
+                                                            <font style="color: rgb(63, 141, 232);">Unlimited Cloud DVR Storage</font>
+                                                        </strong>
+                                                    </span>
+                                                </h6>
+                                                <h6 style="text-align: center;">
+                                                    <span class="o_small-fs">
+                                                        <font style="color: rgb(120, 120, 120);">Record everything you want, whenever you want no space limits, no expiration dates, and no extra fees.</font>
+                                                    </span>
+                                                </h6>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="input">
-                                        <div class="content-4">
-                                            <input type="number" id="monthly-bill" name="monthly-bill" class="text-6"
-                                                   placeholder="$0.00" min="0" step="0.01"
-                                                   aria-describedby="monthly-bill-help" required="required"/>
+                                </div>
+                            </div>
+                            <div class="o_colored_level o_grid_item g-height-10 g-col-lg-7 col-lg-7" style="z-index: 1; grid-area: 1 / 6 / 11 / 13; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px;">
+                                <div class="o_text_columns">
+                                    <div class="row"/>
+                                </div>
+                                <p/>
+                            </div>
+                            <div class="o_colored_level o_grid_item g-col-lg-5 g-height-10 col-lg-5" style="z-index: 1; grid-area: 2 / 1 / 12 / 6;">
+                                <div class="o_text_columns">
+                                    <div class="row">
+                                        <div class="col-6 o_colored_level col-lg-11">
+                                            <h2 class="h3-fs">
+                                                <span style="font-size: 2.25rem;">
+                                                    <font style="color: rgb(0, 100, 168);">
+                                                        <strong>Rethink how much you pay the cable company.</strong>
+                                                    </font>
+                                                </span>
+                                            </h2>
+                                            <div class="o_text_columns">
+                                                <div class="row">
+                                                    <div class="col-6 o_colored_level col-lg-10">
+                                                        <p class="h3-fs"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 o_colored_level col-lg-10">
+                                            <p style="text-align: justify;">
+                                                <span class="base-fs">
+                                                    <font style="color: rgb(120, 120, 120);">We’ll help you find reliable internet service/connection for all of your household needs. Streaming offers instant entertainment like never before. From live TV to on-demand movies, we’ll set you up with the best devices and services for your lifestyle.</font>
+                                                </span>
+                                            </p>
+                                            <p style="text-align: justify;">
+                                                <br/>
+                                            </p>
+                                        </div>
+                                        <div class="col-6 o_colored_level col-lg-12">
+                                            <h2 class="h3-fs" style="text-align: justify;">
+                                                <span class="base-fs">
+                                                    <font style="color: rgb(120, 120, 120);">​                                                        <a href="/website/info" class="btn btn-custom text-o-color-4 bg-o-color-3" style="border-width: 1px; border-style: solid;">Learn More</a>
+                                                    </font>
+                                                </span>
+                                                <br/>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p/>
+                            </div>
+                            <div class="o_colored_level g-col-lg-7 g-height-8 col-lg-7 o_grid_item" style="z-index: 8; grid-area: 1 / 6 / 9 / 13;">
+                                <h2 class="h3-fs">
+                                    <span style="font-size: 2.25rem;">
+                                        <font style="color: rgb(0, 100, 168);">
+                                            <strong>
+                                                <img src="/viva_theme_website/static/src/img/homepage/Content.png" alt="" class="img img-fluid o_we_custom_image" data-mimetype="image/webp" data-original-id="565" data-original-src="/viva_theme_website/static/src/img/homepage/Content.png" data-mimetype-before-conversion="image/png" data-resize-width="690" loading="lazy"/>
+                                            </strong>
+                                        </font>
+                                    </span>
+                                </h2>
+                                <div class="o_text_columns">
+                                    <div class="row">
+                                        <div class="col-6 o_colored_level col-lg-10">
+                                            <p class="h3-fs"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="o_colored_level g-height-5 o_grid_item g-col-lg-4 col-lg-4" style="z-index: 7; grid-area: 7 / 9 / 12 / 13; --grid-item-padding-y: 30px;">
+                                <h2 class="h3-fs">
+                                    <span style="font-size: 2.25rem;">
+                                        <font style="color: rgb(0, 100, 168);">
+                                            <strong>
+                                                <img src="/viva_theme_website/static/src/img/homepage/Group%20888.png" alt="" class="img img-fluid o_we_custom_image ms-auto float-end" data-mimetype="image/webp" data-original-id="570" data-original-src="/viva_theme_website/static/src/img/homepage/Group%20888.png" data-mimetype-before-conversion="image/png" data-resize-width="260" loading="lazy"/>
+                                            </strong>
+                                        </font>
+                                    </span>
+                                </h2>
+                                <div class="o_text_columns">
+                                    <div class="row">
+                                        <div class="col-6 o_colored_level col-lg-10">
+                                            <p class="h3-fs"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="o_colored_level g-col-lg-4 o_grid_item g-height-5 col-lg-4" style="z-index: 9; grid-area: 17 / 9 / 22 / 13;">
+                                <p>
+                                    <img src="/viva_theme_website/static/src/img/homepage/Icon6/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="569" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                </p>
+                                <h6 style="text-align: center;">
+                                    <span style="font-size: 1.125rem;">
+                                        <strong>
+                                            <font style="color: rgb(63, 141, 232);">Beautiful, Easy-to-Use Applications</font>
+                                        </strong>
+                                    </span>
+                                </h6>
+                                <p style="text-align: center;">
+                                    <span class="o_small-fs">
+                                        <font style="color: rgb(120, 120, 120);">Stream through intuitive, sleek apps designed for every screen. No learning curve, no confusion just a smooth, modern experience.</font>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="o_colored_level g-col-lg-4 g-height-5 col-lg-4 o_grid_item" style="z-index: 10; grid-area: 17 / 5 / 22 / 9;">
+                                <p>
+                                    <img src="/viva_theme_website/static/src/img/homepage/Icon5/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="568" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                </p>
+                                <h6 style="text-align: center;">
+                                    <span style="font-size: 1.125rem;">
+                                        <strong>
+                                            <font style="color: rgb(63, 141, 232);">Convenient, Budget-Friendly Plans</font>
+                                        </strong>
+                                    </span>
+                                </h6>
+                                <p style="text-align: center;">
+                                    <span class="o_small-fs">
+                                        <font style="color: rgb(120, 120, 120);">Get all the flexibility and features you need without the bloated cost. Plans fit real budgets, not cable bills.</font>
+                                    </span>
+                                    <br/>
+                                </p>
+                            </div>
+                            <div class="o_colored_level g-col-lg-4 g-height-5 col-lg-4 o_grid_item" style="z-index: 11; grid-area: 17 / 1 / 22 / 5;">
+                                <p>
+                                    <img src="/viva_theme_website/static/src/img/homepage/Icon4/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="567" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                </p>
+                                <h6 style="text-align: center;">
+                                    <span style="font-size: 1.125rem;">
+                                        <strong>
+                                            <font style="color: rgb(63, 141, 232);">Stream Your Content from Anywhere</font>
+                                        </strong>
+                                    </span>
+                                </h6>
+                                <p style="text-align: center;">
+                                    <span class="o_small-fs">
+                                        <font style="color: rgb(120, 120, 120);">Watch live TV and recorded shows on any device, at home or on the go. Your content travels with you.</font>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_text_image pb80 o_colored_level pt0" data-snippet="s_text_image" data-name="Text - Image">
+                    <div class="container">
+                        <div class="row o_grid_mode" data-row-count="16">
+
+                            <div class="o_grid_item o_colored_level rounded shadow g-col-lg-8 g-height-4 col-lg-8" style="z-index: 12; background-image: linear-gradient(135deg, rgb(244, 138, 12) 0%, rgb(250, 205, 108) 100%); border-radius: 200px !important; box-shadow: rgba(246, 158, 41, 0.5) 0px 6px 32px 4px !important; grid-area: 2 / 3 / 6 / 11;"/>
+                            <div class="o_grid_item o_colored_level o_cc o_cc1 g-col-lg-12 g-height-2 col-lg-12" style="z-index: 12; grid-area: 1 / 1 / 3 / 13;"/>
+                            <div class="o_grid_item o_colored_level rounded g-height-4 g-col-lg-10 col-lg-10" style="background-image: linear-gradient(135deg, rgb(244, 138, 12) 0%, rgb(250, 205, 108) 100%); border-radius: 200px !important; z-index: 12; grid-area: 2 / 2 / 6 / 12;">
+                                <div class="o_text_columns">
+                                    <div class="row">
+                                        <div class="col-6 o_colored_level col-lg-6 offset-lg-2 pt48">
+                                            <h4>
+                                                <span class="h4-fs">
+                                                    <font class="text-o-color-4">
+                                                        <span class="h4-fs">
+                                                            <strong>Discover How Much You Can Be Saving.</strong>
+                                                        </span>
+                                                    </font>
+                                                </span>
+                                            </h4>
+                                            <p>
+                                                <font class="text-o-color-4">
+                                                    <span class="base-fs">Use our quick calculator to find out how much you're spending on rental equipment and bloated service fees.</span>
+                                                </font>
+                                            </p>
+                                        </div>
+                                        <div class="col-6 o_colored_level pt64 offset-lg-1 col-lg-3">
+                                            <p>
+                                                <a class="o_translate_inline btn btn-outline-custom text-o-color-4 bg-o-color-2" href="/register" style="border-style: solid; border-width: 2px; border-color: rgb(255, 255, 255);">
+                                                    <span style="font-size: 0.8125rem;">
+                                                        <strong>Cost Cal​​​​​​culator</strong>
+                                                    </span>
+                                                </a>
+                                                <br/>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="o_grid_item o_grid_item_image o_colored_level g-height-4 g-col-lg-3 col-lg-3" style="z-index: 13; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px; grid-area: 2 / 9 / 6 / 12;">
+                                <img src="/viva_theme_website/static/src/img/homepage/Dots%20Background.png" alt="" class="img img-fluid o_we_custom_image" data-mimetype="image/png" data-original-id="572" data-original-src="/viva_theme_website/static/src/img/homepage/Dots%20Background.png" data-mimetype-before-conversion="image/png" loading="lazy" style="width: 100% !important;"/>
+                            </div>
+                            <div class="o_grid_item o_colored_level g-col-lg-10 g-height-5 col-lg-10" style="z-index: 14; grid-area: 9 / 2 / 14 / 12;">
+                                <div class="o_text_columns">
+                                    <div class="row"/>
+                                </div>
+                            </div>
+                            <div class="o_grid_item o_colored_level g-col-lg-10 g-height-5 col-lg-10" style="z-index: 14; grid-area: 9 / 2 / 14 / 12;">
+                                <div class="o_text_columns">
+                                    <div class="row">
+                                        <div class="col-6 o_colored_level col-lg-12">
+                                            <h1 style="text-align: center;">
+                                                <font style="color: rgb(0, 100, 168);">We <strong>cancel your contracts, return your rentals</strong>, and <strong>handle the details</strong> so you can just sit back and relax.</font>
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="o_grid_item o_colored_level g-col-lg-6 g-height-2 col-lg-6" style="z-index: 14; grid-area: 15 / 4 / 17 / 10;">
+                                <div class="o_text_columns">
+                                    <div class="row">
+                                        <div class="col-4o_colored_level col-lg-4 o_colored_level">
+                                            <p>
+                                                <img src="/viva_theme_website/static/src/img/homepage/Group%20896.png" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/webp" data-original-id="574" data-original-src="/viva_theme_website/static/src/img/homepage/Group%20896.png" data-mimetype-before-conversion="image/png" data-resize-width="184" loading="lazy"/>
+                                            </p>
+                                        </div>
+                                        <div class="col-4 o_colored_level">
+                                            <p>
+                                                <img src="/viva_theme_website/static/src/img/homepage/Vector.png" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/webp" data-original-id="575" data-original-src="/viva_theme_website/static/src/img/homepage/Vector.png" data-mimetype-before-conversion="image/png" data-resize-width="151" loading="lazy"/>
+                                            </p>
+                                        </div>
+                                        <div class="col-4 o_colored_level">
+                                            <p>
+                                                <img src="/viva_theme_website/static/src/img/homepage/Group%20895.png" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/webp" data-original-id="576" data-original-src="/viva_theme_website/static/src/img/homepage/Group%20895.png" data-mimetype-before-conversion="image/png" data-resize-width="147" loading="lazy"/>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_carousel_intro_wrapper p-0" data-snippet="s_carousel_intro" data-name="Carousel Intro">
+                    <div class="s_carousel_intro s_carousel_default carousel slide o_colored_level carousel-dark oe_img_bg o_bg_img_center o_bg_img_origin_border_box" data-bs-ride="true" data-bs-interval="10000" id="myCarousel1757756039455" style="background-image: url(&quot;/viva_theme_website/static/src/img/homepage/testimonials.jpg&quot;) !important;" data-mimetype="image/webp" data-original-id="580" data-original-src="/viva_theme_website/static/src/img/homepage/testimonials.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="1440">
+
+                        <div class="carousel-inner">
+
+                            <div class="s_carousel_intro_item carousel-item px-0 pt72 pb96 o_colored_level active" data-name="Slide" style="">
+                                <div class="container">
+                                    <div class="row o_grid_mode" data-row-count="8">
+                                        <div class="o_grid_item o_colored_level g-height-6 g-col-lg-5 col-lg-5" style="z-index: 1; grid-area: 2 / 1 / 8 / 6; --grid-item-padding-y: 0px; --grid-item-padding-x: 5px;" data-name="Block">
+                                            <h1>
+                                                <font class="text-o-color-4">
+                                                    <span style="font-size: 3.75rem;">
+                                                        <strong>Trusted by people who cut the cord for good.</strong>
+                                                    </span>
+                                                </font>
+                                            </h1>
+                                        </div>
+                                        <div class="o_grid_item o_colored_level border rounded g-col-lg-4 g-height-8 col-lg-4" style="z-index: 1; --grid-item-padding-y: 32px; --grid-item-padding-x: 32px; border-width: 2px !important; border-radius: 25px !important; border-color: rgba(255, 255, 255, 0.6) !important; background-image: linear-gradient(135deg, rgba(239, 239, 239, 0.6) 0%, rgba(255, 255, 255, 0.08) 100%); grid-area: 1 / 7 / 9 / 11;" data-name="Block">
+                                            <p style="text-align: justify;">​                                                <span class="o_stars o_five_stars" id="checkId-1">
+                                                    <i class="fa fa-star" style="color: rgb(244, 138, 12);"/>
+                                                    <i class="fa fa-star" style="color: rgb(244, 138, 12);"/>
+                                                    <i class="fa fa-star" style="color: rgb(244, 138, 12);"/>
+                                                    <i class="fa text-o-color-3 fa-star"/>
+                                                    <i class="fa fa-star" style="color: rgb(244, 138, 12);"/>
+                                                </span>​
+                                            </p>
+                                            <p style="text-align: justify;">
+                                                <font class="text-o-color-4">
+                                                    <span class="base-fs">We were dissatisfied with both the level of service and the expense of cable, but were unaware of how to find a reasonable alternative. Then we watched a Zoom session in which Marshmallow Streaming explained their turnkey approach that could convert us to streaming in fewer than two hours and save us more than $100 a month.</span>
+                                                </font>
+                                            </p>
+                                            <div class="o_text_columns">
+                                                <div class="row">
+                                                    <div class="col-6 o_colored_level col-lg-3">
+                                                        <p>
+                                                            <img src="/viva_theme_website/static/src/img/homepage/image%204.png" alt="" class="img img-fluid o_we_custom_image" data-mimetype="image/webp" data-original-id="582" data-original-src="/viva_theme_website/static/src/img/homepage/image%204.png" data-mimetype-before-conversion="image/png" data-resize-width="64" style="width: 100% !important;" loading="lazy"/>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-6 o_colored_level col-lg-8">
+                                                        <p>
+                                                            <font class="text-white">
+                                                                <span style="font-size: 0.875rem;">Mike and Marilyn Glass<br/>
+Arlington Heights, IL</span>
+                                                            </font>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="div-3">
-                                <div class="div-3">
-                                    <div class="label-wrapper">
-                                        <label for="household-size" class="label-3">Number Of People In The Home</label>
-                                    </div>
-                                    <div class="input">
-                                        <div class="content-4">
-                                            <select id="household-size" name="household-size" class="text-6"
-                                                    required="required" aria-describedby="household-size-help">
-                                                <option value="">Please select...</option>
-                                                <option value="1">1 person</option>
-                                                <option value="2">2 people</option>
-                                                <option value="3">3 people</option>
-                                                <option value="4">4 people</option>
-                                                <option value="5">5+ people</option>
-                                            </select>
-                                            <span class="arrow" aria-hidden="true">
-                                                <img class="icon" t-att-src="'/viva_theme_website/static/src/img/image.svg'" alt=""/>
-                                            </span>
+                            <div class="s_carousel_intro_item carousel-item o_cc o_cc1 px-0 pt72 pb96 o_colored_level" data-name="Slide" style="">
+                                <div class="container">
+                                    <div class="row o_grid_mode" data-row-count="8">
+                                        <div class="o_grid_item g-height-5 g-col-lg-6 col-lg-6 o_colored_level" style="z-index: 1; grid-area: 1 / 7 / 6 / 13;" data-name="Block">
+                                            <h2 class="display-3-fs o_default_snippet_text">Innovating for business success</h2>
+                                        </div>
+                                        <div class="o_grid_item g-height-2 g-col-lg-4 col-lg-4 o_colored_level" style="z-index: 2; grid-area: 7 / 7 / 9 / 11; --grid-item-padding-y: 20px;" data-name="Block">
+                                            <p class="lead o_default_snippet_text">Creating solutions that drive growth and long-term value.</p>
+                                        </div>
+                                        <div class="o_grid_item o_grid_item_image g-height-7 g-col-lg-5 col-lg-5 o_colored_level" style="z-index: 3; grid-area: 2 / 1 / 9 / 6;" data-name="Block">
+                                            <img src="/viva_theme_website/static/src/img/homepagerousel_intro_default_image_2" alt="" class="img img-fluid" loading="lazy" data-mimetype="image/jpeg" data-original-id="277" data-original-src="/website/static/src/img/snippets_demo/s_image_title_default_image.jpg" data-mimetype-before-conversion="image/jpeg"/>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </form>
+
+                            <div class="s_carousel_intro_item carousel-item o_cc o_cc1 px-0 pt72 pb96 o_colored_level" data-name="Slide" style="">
+                                <div class="container">
+                                    <div class="row o_grid_mode" data-row-count="8">
+                                        <div class="o_grid_item g-height-8 g-col-lg-5 col-lg-5 o_colored_level" style="z-index: 1; grid-area: 1 / 1 / 9 / 6;" data-name="Box">
+                                            <h2 class="display-3-fs o_default_snippet_text">Leading the future with innovation and strategy</h2>
+                                        </div>
+                                        <div class="o_grid_item g-height-4 g-col-lg-4 col-lg-4 o_colored_level" style="z-index: 2; grid-area: 5 / 9 / 9 / 13;" data-name="Box">
+                                            <p class="lead o_default_snippet_text">We combine strategic insights and innovative solutions to drive business success, ensuring sustainable growth and competitive advantage in a dynamic market.</p>
+                                        </div>
+                                        <div class="o_grid_item o_grid_item_image g-height-8 g-col-lg-3 col-lg-3 o_colored_level" style="z-index: 3; grid-area: 1 / 6 / 9 / 9;" data-name="Box">
+                                            <img src="/viva_theme_website/static/src/img/homepagerousel_intro_default_image_3" alt="" class="img img-fluid" loading="lazy" data-mimetype="image/jpeg" data-original-id="278" data-original-src="/website/static/src/img/snippets_demo/s_banner_3.jpg" data-mimetype-before-conversion="image/jpeg"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_carousel_intro_controllers container position-absolute start-50 bottom-0 translate-middle-x w-100 mb-md-4 o_not_editable">
+                            <div class="s_carousel_intro_controllers_row row gap-3 gap-lg-5 justify-content-between flex-nowrap flex-row-reverse">
+
+                                <div class="o_arrows_wrapper gap-2 w-auto p-0">
+                                    <button class="carousel-control-prev o_not_editable o_we_no_overlay" aria-label="Previous" title="Previous" data-bs-target="#myCarousel1757756039455" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"/>
+                                        <span class="visually-hidden o_default_snippet_text">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next o_not_editable o_we_no_overlay" aria-label="Next" title="Next" data-bs-target="#myCarousel1757756039455" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"/>
+                                        <span class="visually-hidden o_default_snippet_text">Next</span>
+                                    </button>
+                                </div>
+
+                                <div class="s_carousel_indicators_numbers carousel-indicators align-items-center flex-shrink-1 w-auto o_we_no_overlay">
+                                    <button type="button" aria-label="Carousel indicator" data-bs-target="#myCarousel1757756039455" class="active" data-bs-slide-to="0" aria-current="true"/>
+                                    <button type="button" aria-label="Carousel indicator" data-bs-target="#myCarousel1757756039455" data-bs-slide-to="1"/>
+                                    <button type="button" aria-label="Carousel indicator" data-bs-target="#myCarousel1757756039455" data-bs-slide-to="2"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="actions">
-                        <button type="submit" form="savings-form" class="frame-5">
-                            <span class="text-7">Continue To Next Steps</span>
-                        </button>
+                </section>
+                <section class="s_text_image pt80 pb80 o_colored_level" data-snippet="s_image_text" data-name="Image - Text">
+                    <div class="container">
+                        <div class="row o_grid_mode" data-row-count="11">
+                            <div class="o_colored_level o_grid_item o_grid_item_image g-height-10 g-col-lg-6 col-lg-6" style="grid-area: 1 / 1 / 11 / 7; z-index: 1; --grid-item-padding-y: 0px;">
+                                <img src="/viva_theme_website/static/src/img/homepage/Image.png" alt="" class="img img-fluid mx-auto o_we_custom_image rounded" data-mimetype="image/webp" data-original-id="584" data-original-src="/viva_theme_website/static/src/img/homepage/Image.png" data-mimetype-before-conversion="image/png" data-resize-width="655" loading="lazy"/>
+                            </div>
+                            <div class="o_colored_level o_grid_item g-col-lg-5 g-height-10 col-lg-5" style="z-index: 2; grid-area: 2 / 8 / 12 / 13; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px;">
+                                <div class="o_text_columns">
+                                    <div class="row">
+                                        <div class="col-6 o_colored_level col-lg-11">
+                                            <h1>
+                                                <strong>
+                                                    <font style="color: rgb(0, 100, 168);">Upgrade your business tech with no headaches.</font>
+                                                </strong>
+                                            </h1>
+                                            <div class="o_text_columns">
+                                                <div class="row">
+                                                    <div class="col-6 o_colored_level col-lg-12">
+                                                        <p/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 o_colored_level col-lg-12">
+                                            <p style="text-align: left;">
+                                                <font style="color: rgb(120, 120, 120);">From smarter office AV systems to small business security and networking, we make tech upgrades easy. Our team handles everything from setup to support so you can focus on running your business. Get reliable, professional-grade solutions without the stress, delays, or confusing contracts.</font>
+                                            </p>
+                                        </div>
+                                        <div class="col-6 o_colored_level col-lg-12">
+                                            <p style="text-align: left;">
+                                                <font style="color: rgb(120, 120, 120);">
+                                                    <a class="o_translate_inline btn btn-custom text-white bg-o-color-3" href="/website/info" style="border-width: 1px; border-style: solid;">
+                                                        <span style="font-size: 0.8125rem;">
+                                                            <strong>Learn More</strong>
+                                                        </span>
+                                                    </a>
+                                                </font>
+                                                <span style="font-size: 0.8125rem;">
+                                                    <font style="color: rgb(120, 120, 120);">
+                                                        <strong>​</strong>
+                                                    </font>
+                                                </span>
+                                                <strong>
+                                                    <br/>
+                                                </strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    <span style="font-size: 0.8125rem;">
+                                        <strong>​​</strong>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </aside>
-    </div>
-</section>
-
-
-<!--                    <section class="intro">-->
-<!--                        <img class="group" src="/viva_theme_website/static/src/img/homepage/homepage_section_1.png"/>-->
-<!--                        <div class="container">-->
-<!--                            <div class="content">-->
-<!--                                <div class="heading-and">-->
-<!--                                    <div class="frame">-->
-<!--                                        <div class="div">-->
-<!--                                            <p class="heading">We handle the hard part - you keep the savings.</p>-->
-<!--                                        </div>-->
-<!--                                        <p class="supporting-text">-->
-<!--                                            viva_theme_website Streaming gives you the freedom to ditch the fees and take control of your home-->
-<!--                                            entertainment setup. We handle the heavy lifting—removing old gear, returning it for you, and installing-->
-<!--                                            the latest, no-rental alternatives that fit your needs.-->
-<!--                                        </p>-->
-<!--                                    </div>-->
-<!--                                    <div class="supporting-text-wrapper">-->
-<!--                                        <div class="text-wrapper">Learn More About Us</div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </section>-->
-
-<!--                    <section class="why-us">-->
-<!--                        <img class="group" src="img/group-888.png" alt="Decorative graphic element"/>-->
-<!--                        <section class="container">-->
-<!--                            <div class="content">-->
-<!--                                <article class="div">-->
-<!--                                    <header class="div-2">-->
-<!--                                        <h1 class="text">Rethink how much you<br/>-->
-<!--pay the cable company.</h1>-->
-<!--                                        <p class="supporting-text">-->
-<!-- We'll help you find reliable internet service/connection for all of your household needs.-->
-<!-- offers instant entertainment like never before. From live TV to on-demand movies, we'll s-->
-<!-- the best devices and services for your lifestyle.-->
-<!--                                        </p>-->
-<!--                                    </header>-->
-<!--                                    <div class="frame">-->
-<!--                                        <div class="frame-wrapper">-->
-<!--                                            <button class="text-wrapper" type="button" aria-label="Learn more about our services">-->
-<!--                                                <span class="text-2">Learn More</span>-->
-<!--                                            </button>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </article>-->
-<!--                            </div>-->
-<!--                            <img class="img" src="img/content.png" alt="Streaming devices and equipment display"/>-->
-<!--                        </section>-->
-<!--                        <section class="frame-2" aria-labelledby="features-heading">-->
-<!--                            <h2 id="features-heading" class="sr-only">Our Features and Benefits</h2>-->
-<!--                            <div class="container-2">-->
-<!--                                <article class="feature-text">-->
-<!--                                    <img class="featured-icon" src="img/featured-icon-3.png" alt="Channel customization icon"/>-->
-<!--                                    <div class="div-2">-->
-<!--                                        <div class="text-and-supporting">-->
-<!--                                            <h3 class="text-3">Customize Your Exact Channels</h3>-->
-<!--                                            <p class="p">-->
-<!-- Choose only the channels you actually watch, no fluff. Build a lineup that fits your li-->
-<!-- perfectly.-->
-<!--                                            </p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </article>-->
-<!--                                <article class="feature-text-2">-->
-<!--                                    <img class="featured-icon-2" src="img/featured-icon-5.png" alt="No fees icon"/>-->
-<!--                                    <div class="div">-->
-<!--                                        <div class="text-and-supporting">-->
-<!--                                            <h3 class="text-3">No Rental Equipment, Fees, Hidden Taxes</h3>-->
-<!--                                            <p class="p">-->
-<!-- Say goodbye to surprise charges, monthly rental fees, and the fine print cable companie-->
-<!--                                            </p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </article>-->
-<!--                                <article class="feature-text">-->
-<!--                                    <img class="featured-icon-2" src="img/image.png" alt="Cloud DVR storage icon"/>-->
-<!--                                    <div class="div-2">-->
-<!--                                        <div class="text-and-supporting">-->
-<!--                                            <h3 class="text-3">Unlimited Cloud DVR Storage</h3>-->
-<!--                                            <p class="p">-->
-<!-- Record everything you want, whenever you want no space limits, no expiration dates, and-->
-<!--                                            </p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </article>-->
-<!--                            </div>-->
-<!--                            <div class="container-3">-->
-<!--                                <article class="feature-text">-->
-<!--                                    <img class="featured-icon" src="img/featured-icon-4.png" alt="Stream anywhere icon"/>-->
-<!--                                    <div class="div-2">-->
-<!--                                        <div class="text-and-supporting">-->
-<!--                                            <h3 class="text-3">Stream Your Content from Anywhere</h3>-->
-<!--                                            <p class="p">-->
-<!-- Watch live TV and recorded shows on any device, at home or on the go. Your content trav-->
-<!--                                            </p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </article>-->
-<!--                                <article class="feature-text-2">-->
-<!--                                    <img class="featured-icon" src="img/featured-icon-2.png" alt="Budget-friendly plans icon"/>-->
-<!--                                    <div class="div">-->
-<!--                                        <div class="text-and-supporting">-->
-<!--                                            <h3 class="text-3">Convenient, Budget-Friendly Plans</h3>-->
-<!--                                            <p class="p">-->
-<!--                                                Get all the flexibility and features you need without the bloated cost. Plans fit real-->
-<!--                                                cable bills.-->
-<!--                                            </p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </article>-->
-<!--                                <article class="feature-text">-->
-<!--                                    <img class="featured-icon" src="img/featured-icon.png" alt="Easy-to-use applications icon"/>-->
-<!--                                    <div class="div-2">-->
-<!--                                        <div class="text-and-supporting">-->
-<!--                                            <h3 class="text-3">Beautiful, Easy-to-Use Applications</h3>-->
-<!--                                            <p class="p">-->
-<!--                                                Stream through intuitive, sleek apps designed for every screen. No learning curve, no c-->
-<!--                                                smooth, modern experience.-->
-<!--                                            </p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </article>-->
-<!--                            </div>-->
-<!--                        </section>-->
-<!--                    </section>-->
-
-<!--                    <section class="cost-calculator">-->
-<!--                        <div class="dropshadow" aria-hidden="true"/>-->
-<!--                        <div class="background-overlap" aria-hidden="true"/>-->
-<!--                        <div class="container">-->
-<!--                            <section class="content">-->
-<!--                                <div class="frame">-->
-<!--                                    <header class="heading-and">-->
-<!--                                        <h1 class="heading">Discover How Much You Can Be Saving.</h1>-->
-<!--                                        <p class="supporting-text">-->
-<!--                                            Use our quick calculator to find out how much you're spending<br/>-->
-<!--                                            on rental equipment an-->
-<!--                                            service fees.-->
-<!--                                        </p>-->
-<!--                                    </header>-->
-<!--                                    <div class="buttons">-->
-<!--                                        <button type="button" class="text-wrapper" aria-label="Open Cost Calculator">-->
-<!--                                            <span class="text">Cost Calculator</span>-->
-<!--                                        </button>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <img class="dots-background" src="img/dots-background.png" alt="" aria-hidden="true"/>-->
-<!--                            </section>-->
-<!--                        </div>-->
-<!--                        <img class="dots" src="img/dots.png" alt="" aria-hidden="true"/>-->
-<!--                    </section>-->
-
-<!--                    <section class="value-statement" role="main" aria-labelledby="main-heading">-->
-<!--                        <div class="container">-->
-<!--                            <div class="content">-->
-<!--                                <div class="quote-and">-->
-<!--                                    <h1 class="quote" id="main-heading">-->
-<!--                                        <span class="text-wrapper">We </span>-->
-<!--                                        <strong class="span">cancel your contracts</strong>-->
-<!--                                        <span class="text-wrapper">, </span>-->
-<!--                                        <strong class="span">return your rentals</strong>-->
-<!--                                        <span class="text-wrapper">, and </span>-->
-<!--                                        <strong class="span">handle the details </strong>-->
-<!--                                        <span class="text-wrapper">so you can just sit back and relax.</span>-->
-<!--                                    </h1>-->
-<!--                                    <img class="frame" src="img/frame-10.svg" alt="Service illustration"/>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <img class="group" src="img/group-890.png" alt="Company logos"/>-->
-<!--                        <div class="dots" role="presentation" aria-hidden="true">-->
-<!--                            <img class="vector" src="img/vector-10.svg" alt=""/>-->
-<!--                            <img class="img" src="img/vector-9.svg" alt=""/>-->
-<!--                            <img class="vector-2" src="img/vector-7.svg" alt=""/>-->
-<!--                            <img class="vector-3" src="img/vector-6.svg" alt=""/>-->
-<!--                            <img class="vector-4" src="img/vector-8.svg" alt=""/>-->
-<!--                            <img class="vector-5" src="img/vector-12.svg" alt=""/>-->
-<!--                            <img class="vector-6" src="img/vector-4.svg" alt=""/>-->
-<!--                        </div>-->
-<!--                        <div class="div" role="presentation" aria-hidden="true">-->
-<!--                            <img class="vector-7" src="img/vector-5.svg" alt=""/>-->
-<!--                            <img class="vector-8" src="img/vector-3.svg" alt=""/>-->
-<!--                            <img class="vector-9" src="img/image.svg" alt=""/>-->
-<!--                            <img class="vector-10" src="img/vector-2.svg" alt=""/>-->
-<!--                            <img class="vector-11" src="img/vector-11.svg" alt=""/>-->
-<!--                            <img class="vector-12" src="img/vector.svg" alt=""/>-->
-<!--                        </div>-->
-<!--                    </section>-->
-
-<!--                    <section class="testimonials" aria-label="Customer testimonials">-->
-<!--                        <div class="container">-->
-<!--                            <header class="content">-->
-<!--                                <div class="heading-and">-->
-<!--                                    <div class="frame">-->
-<!--                                        <h1 class="heading">Trusted by people who cut the cord for good.</h1>-->
-<!--                                    </div>-->
-<!--                                    <nav class="arrows" aria-label="Testimonial navigation">-->
-<!--                                        <button class="testiomonial" aria-label="Previous testimonial" type="button">-->
-<!--                                            <img class="img" src="img/arrow-left.svg" alt=""/>-->
-<!--                                        </button>-->
-<!--                                        <button class="testiomonial" aria-label="Next testimonial" type="button">-->
-<!--                                            <img class="img" src="img/arrow-right.svg" alt=""/>-->
-<!--                                        </button>-->
-<!--                                    </nav>-->
-<!--                                </div>-->
-<!--                            </header>-->
-<!--                            <div class="div">-->
-<!--                                <article class="card">-->
-<!--                                    <div class="frame-2">-->
-<!--                                        <img class="name-and-stars" src="img/name-and-stars.svg" alt="5 star rating"/>-->
-<!--                                        <div class="text-and-supporting">-->
-<!--                                            <div class="frame-3">-->
-<!--                                                <blockquote class="text">-->
-<!--                                                    We were dissatisfied with both the level of service and the expense of cable, but wer-->
-<!--                                                    how to find a reasonable alternative. Then we watched a Zoom session in which Marshma-->
-<!--                                                    explained their turnkey approach that could convert us to streaming in fewer than two-->
-<!--                                                    us more than $100 a month.-->
-<!--                                                </blockquote>-->
-<!--                                                <footer class="frame-wrapper">-->
-<!--                                                    <div class="frame-4">-->
-<!--                                                        <img class="image" src="img/image-4.png" alt="Mike And Marilyn Glass"/>-->
-<!--                                                        <div class="group">-->
-<!--                                                            <cite class="supporting-text">Mike And Marilyn Glass</cite>-->
-<!--                                                            <div class="text-wrapper">Arlington Heights, IL</div>-->
-<!--                                                        </div>-->
-<!--                                                    </div>-->
-<!--                                                </footer>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </article>-->
-<!--                                <article class="div-wrapper">-->
-<!--                                    <div class="frame-2">-->
-<!--                                        <img class="name-and-stars" src="img/name-and-stars-2.svg" alt="5 star rating"/>-->
-<!--                                        <div class="text-and-supporting">-->
-<!--                                            <div class="frame-3">-->
-<!--                                                <blockquote class="text">-->
-<!--                                                    viva_theme_website Streaming revolutionized our lives!!! We wanted to "cut the cord" for yea-->
-<!--                                                    flummoxed by the details so continued to waste hundreds of dollars a month. You cut t-->
-<!--                                                    complexity as you cut the cord, and your follow-through customer support has been not-->
-<!--                                                    dazzling! We couldn't<br/>-->
-<!--                                                    be happier!-->
-<!--                                                </blockquote>-->
-<!--                                                <footer class="frame-wrapper">-->
-<!--                                                    <div class="frame-4">-->
-<!--                                                        <img class="image" src="img/image.png" alt="Dan Ware And Jonathan Lewis"/>-->
-<!--                                                        <div class="group">-->
-<!--                                                            <cite class="supporting-text">Dan Ware And Jonathan Lewis</cite>-->
-<!--                                                            <div class="text-wrapper">Chicago, IL</div>-->
-<!--                                                        </div>-->
-<!--                                                    </div>-->
-<!--                                                </footer>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </article>-->
-<!--                                <article class="card-2">-->
-<!--                                    <div class="frame-2">-->
-<!--                                        <img class="name-and-stars-2" src="img/image.svg" alt="5 star rating"/>-->
-<!--                                        <div class="frame-wrapper">-->
-<!--                                            <div class="frame-2">-->
-<!--                                                <blockquote class="text">-->
-<!--                                                    "viva_theme_website Streaming made the entire process effortless for our business. Not only-->
-<!--                                                    everything, but we're also saving significantly each month without the rental fees."-->
-<!--                                                </blockquote>-->
-<!--                                                <cite class="p">John S. - Company Name</cite>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </article>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </section>-->
-
-<!--                    <main class="business">-->
-<!--                        <section class="CTA-section" aria-labelledby="main-heading">-->
-<!--                            <div class="container">-->
-<!--                                <div class="image" role="img" aria-label="Modern office workspace with AV systems and technology setup"/>-->
-<!--                                <div class="content">-->
-<!--                                    <div class="frame">-->
-<!--                                        <div class="div">-->
-<!--                                            <div class="div">-->
-<!--                                                <h1 id="main-heading" class="heading">Upgrade your business tech with<br/>-->
-<!--no headaches.</h1>-->
-<!--                                                <p class="supporting-text">-->
-<!--                                                    From smarter office AV systems to small business security and networking, we make tech upgrades-->
-<!--                                                    easy. Our team handles everything from setup to support so you can focus on running your business.-->
-<!--                                                    Get reliable, professional-grade solutions without the stress, delays, or confusing contracts.-->
-<!--                                                </p>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                        <a href="#learn-more" class="text-wrapper" role="button" aria-label="Learn more about our business tech solutions">-->
-<!--                                            <span class="text">Learn More</span>-->
-<!--                                        </a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </section>-->
-<!--                    </main>-->
-<!--                    <footer class="footer">-->
-<!--                        <section class="CTA" aria-labelledby="cta-heading">-->
-<!--                            <div class="content">-->
-<!--                                <header class="heading-and">-->
-<!--                                    <h1 id="cta-heading" class="heading">Ready to see what you could actually save?</h1>-->
-<!--                                    <p class="text-wrapper">Get started by using our cost calculator or request a quote today.</p>-->
-<!--                                </header>-->
-<!--                                <div class="actions" role="group" aria-label="Call to action buttons">-->
-<!--                                    <a href="#quote" class="frame" role="button" aria-label="Get a quote">-->
-<!--                                        <span class="text">Get A Quote</span>-->
-<!--                                    </a>-->
-<!--                                    <a href="#calculator" class="div-wrapper" role="button" aria-label="Cost calculator">-->
-<!--                                        <span class="div">Cost Calculator</span>-->
-<!--                                    </a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </section>-->
-<!--                        <section class="content-wrapper">-->
-<!--                            <nav class="content-2" aria-label="Footer navigation">-->
-<!--                                <div class="footer-links-column">-->
-<!--                                    <h2 class="heading-2">Residential Services</h2>-->
-<!--                                    <ul class="footer-links" role="list">-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#streaming-setup" class="buttons-button">-->
-<!--                                                <span class="text-2">Streaming Setup</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#wifi-optimization" class="buttons-button">-->
-<!--                                                <span class="text-2">Wi-Fi Optimization</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#tv-av-installation" class="buttons-button">-->
-<!--                                                <span class="text-2">TV / AV Installation</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                    </ul>-->
-<!--                                </div>-->
-<!--                                <div class="footer-links-column">-->
-<!--                                    <h2 class="heading-2">Commercial Services</h2>-->
-<!--                                    <ul class="footer-links" role="list">-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#office-av" class="buttons-button">-->
-<!--                                                <span class="text-2">Office AV</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#small-business-security" class="buttons-button">-->
-<!--                                                <span class="text-2">Small Business Secutiry</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#networking" class="buttons-button">-->
-<!--                                                <span class="text-2">Networking</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                    </ul>-->
-<!--                                </div>-->
-<!--                                <div class="footer-links-column">-->
-<!--                                    <h2 class="heading-2">Support Hub</h2>-->
-<!--                                    <ul class="footer-links" role="list">-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#faqs" class="buttons-button">-->
-<!--                                                <span class="text-2">FAQs</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#post-install-guides" class="buttons-button">-->
-<!--                                                <span class="text-2">Post-Install Guides</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li>-->
-<!--                                            <a href="#case-studies" class="buttons-button">-->
-<!--                                                <span class="text-2">Case Studies</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#contact" class="buttons-button">-->
-<!--                                                <span class="text-2">Contact</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                    </ul>-->
-<!--                                </div>-->
-<!--                                <div class="footer-links-column">-->
-<!--                                    <h2 class="heading-2">Other</h2>-->
-<!--                                    <ul class="footer-links" role="list">-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#get-quote" class="buttons-button">-->
-<!--                                                <span class="text-2">Get A Quote</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#cost-calculator" class="buttons-button">-->
-<!--                                                <span class="text-2">Cost Calculator</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#about" class="buttons-button">-->
-<!--                                                <span class="text-2">About</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li class="footer-link">-->
-<!--                                            <a href="#referral-program" class="buttons-button">-->
-<!--                                                <span class="text-2">Referral Program</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                        <li class="buttons-button-wrapper">-->
-<!--                                            <a href="#login" class="button">-->
-<!--                                                <span class="text-2">Login</span>-->
-<!--                                            </a>-->
-<!--                                        </li>-->
-<!--                                    </ul>-->
-<!--                                </div>-->
-<!--                            </nav>-->
-<!--                        </section>-->
-<!--                        <div class="container">-->
-<!--                            <div class="content-3">-->
-<!--                                <img class="img" src="img/frame-28.svg" alt="viva_theme_website Streaming logo"/>-->
-<!--                                <p class="footer-text">-->
-<!-- © 2025 viva_theme_website Streaming. All rights reserved. Designed &amp; Developed by LLT Group.-->
-<!--                                </p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </footer>-->
-                </main>
+                </section>
             </div>
         </t>
+
     </template>
 
 

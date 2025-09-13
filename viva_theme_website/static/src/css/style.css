@@ -1,9 +1,9 @@
 .hero {
     display: flex;
     flex-direction: column;
-    // align-items: center;
+    /* align-items: center; */
     gap: 64px;
-    // padding: 0px 0px 96px;
+    /* padding: 0px 0px 96px; */
     position: relative;
     background: linear-gradient(270deg,
             rgba(0, 0, 0, 0) 0%,
