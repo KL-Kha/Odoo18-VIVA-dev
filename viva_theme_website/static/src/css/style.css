@@ -1,9 +1,9 @@
 .hero {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
     gap: 64px;
-    padding: 0px 0px 96px;
+    // padding: 0px 0px 96px;
     position: relative;
     background: linear-gradient(270deg,
             rgba(0, 0, 0, 0) 0%,
@@ -11,7 +11,7 @@
 }
 
 .hero .header {
-    width: 1440px;
+    width: 100%;
     align-items: flex-start;
     gap: 10px;
     padding: 10px 0px 0px;
@@ -22,7 +22,7 @@
 }
 
 .hero .container-wrapper {
-    width: 1440px;
+    width: 100%;
     height: 80px;
     align-items: center;
     justify-content: center;

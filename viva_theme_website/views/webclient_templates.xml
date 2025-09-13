@@ -426,7 +426,7 @@
 
         <t t-call="website.layout">
             <div id="wrap">
-                <main class="hero">
+                <main class="hero o_full_width">
                     <!-- HEADER RIÊNG -->
     <header class="header">
         <div class="container-wrapper">
