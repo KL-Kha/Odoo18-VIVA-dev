@@ -12,8 +12,8 @@
                 <div id="footer" class="oe_structure oe_structure_solo o_editable o_dirty" data-oe-id="1471" data-oe-xpath="/data/xpath/div" data-oe-model="ir.ui.view" data-oe-field="arch" contenteditable="true">
                     <section class="s_text_block pb16 pt0" data-snippet="s_text_block" data-name="Text">
                         <div class="container">
-                            <div class="row o_grid_mode" data-row-count="15">
-                                <div class="o_colored_level o_grid_item g-height-4 g-col-lg-8 col-lg-8 o_draggable" style="grid-area: 1 / 3 / 5 / 11; z-index: 3; border-color: rgba(255, 255, 255, 0.6) !important; --grid-item-padding-x: 20px;" data-name="Block">
+                            <div class="row">
+                                <div class="o_colored_level o_draggable pb48 border-bottom" data-name="Block">
                                     <h1 style="text-align: center;">
                                         <span style="font-size: 3.75rem;">
                                             <font style="color: rgb(63, 141, 232);">
@@ -24,8 +24,16 @@
                                     <p style="text-align: center;">
                                         <font style="color: rgb(120, 120, 120);">Get started by using our cost calculator or request a quote today.</font>
                                     </p>
+                                    <div class="d-flex justify-content-center align-items-center py-2">
+                                        <a class="o_translate_inline btn btn-custom text-white bg-o-color-3 mx-2" href="/website/info">
+                                            <span style="font-size: 0.8125rem;">Get A Quote</span>
+                                        </a>
+                                        <a class="o_translate_inline btn btn-outline-primary mx-2" href="/website/info">
+                                            <span style="font-size: 0.8125rem;">Cost Calculator</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="o_colored_level o_grid_item g-height-5 g-col-lg-10 col-lg-10" style="grid-area: 8 / 2 / 13 / 12; z-index: 3; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
+                                <div class="o_colored_level pt48" data-name="Block">
                                     <div class="o_text_columns">
                                         <div class="row">
                                             <div class="col-3 o_colored_level">
@@ -188,22 +196,8 @@
                                     </div>
                                 </div>
 
-                                <div class="o_colored_level o_grid_item g-col-lg-12 g-height-1 col-lg-12 o_draggable" style="z-index: 3; grid-area: 6 / 1 / 7 / 13; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
-                                    <div class="s_hr pt32 pb32 oe_snippet_body o_draggable" data-snippet="s_hr" data-name="Separator">
-                                        <hr class="w-100 mx-auto" style="border-top-color: rgb(229, 229, 229);" contenteditable="false"/>
-                                    </div>
-                                </div>
-
-                                <div class="o_colored_level o_grid_item g-height-1 g-col-lg-5 col-lg-5 o_draggable" style="z-index: 3; grid-area: 13 / 1 / 14 / 6; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
-                                    <div class="s_hr oe_snippet_body pt16 o_draggable pb0" data-snippet="s_hr" data-name="Separator">
-                                        <hr class="w-100 mx-auto" style="border-top-color: rgb(229, 229, 229);" contenteditable="false"/>
-                                    </div>
-                                </div>
-
-                                <div class="o_colored_level o_grid_item g-col-lg-8 g-height-2 col-lg-8 o_draggable" style="z-index: 3; grid-area: 12 / 3 / 14 / 11; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
-                                    <p style="text-align: center;">
-                                        <br/>
-                                    </p>
+                                <div class="o_colored_level d-flex align-items-center o_draggable" data-name="Block">
+                                    <div class="flex-grow-1 border-bottom"></div>
                                     <div class="s_social_media o_not_editable text-center no_icon_color o_draggable" data-snippet="s_social_media" data-name="Social Media" contenteditable="false">
                                         <h4 class="s_social_media_title o_default_snippet_text d-none" contenteditable="true">Social Media</h4>
                                         <a href="/website/social/facebook" class="s_social_media_facebook" target="_blank" aria-label="Facebook">
@@ -219,48 +213,15 @@
                                             <i class="fa o_editable_media fa-twitter rounded-empty-circle shadow-sm" style="color: rgb(0, 100, 168); border-color: rgb(229, 229, 229); background-color: rgb(255, 255, 255);" contenteditable="false">​</i>
                                         </a>
                                     </div>
+                                    <div class="flex-grow-1 border-bottom"></div>
                                 </div>
 
-                                <div class="o_colored_level o_grid_item g-height-1 g-col-lg-5 col-lg-5" style="z-index: 2; grid-area: 13 / 8 / 14 / 13; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
-                                    <div class="s_hr pb32 oe_snippet_body pt16" data-snippet="s_hr" data-name="Separator">
-                                        <hr class="w-100 mx-auto" style="border-top-color: rgb(229, 229, 229);" contenteditable="false"/>
-                                    </div>
-                                </div>
-
-                                <div class="o_colored_level o_grid_item g-height-1 g-col-lg-12 col-lg-12" style="z-index: 3; grid-area: 15 / 1 / 16 / 13; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
+                                <div class="o_colored_level col-12 pt32" data-name="Block">
                                     <p style="text-align: center;">
                                         <span style="font-size: 0.875rem;">
-                                            <font style="color: rgb(113, 118, 128);">© 2025 Marshmallow Streaming. All rights reserved. Designed &amp; Developed by LLT Group.</font>
+                                            <font style="color: rgb(113, 118, 128);">© 2025 Marshmallow Streaming. All rights reserved. Designed &amp; Developed by <a class="nav-link d-inline cursor-pointer" href="#">LLT Group.</a>
+                                            </font>
                                         </span>
-                                    </p>
-                                </div>
-
-                                <div class="o_grid_item o_colored_level g-height-1 g-col-lg-5 col-lg-5 o_draggable" style="--grid-item-padding-y: 0px; --grid-item-padding-x: 0px; z-index: 1; grid-area: 5 / 5 / 6 / 10; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
-                                    <p style="text-align: center;">
-                                        <font style="color: rgb(120, 120, 120);"></font>
-                                        <a class="o_translate_inline btn btn-custom text-o-color-3 mb-2" href="/website/info" style="border-width: 2px; border-style: solid; border-color: rgb(244, 138, 12);">
-                                            <span style="font-size: 0.8125rem;">Cost Calculator</span>
-                                        </a>
-                                        <font style="color: rgb(120, 120, 120);"></font>
-                                    </p>
-                                </div>
-
-                                <div class="o_grid_item o_colored_level g-height-1 g-col-lg-4 col-lg-4" style="--grid-item-padding-y: 0px; --grid-item-padding-x: 0px; z-index: 9; grid-area: 5 / 4 / 6 / 8; border-color: rgba(255, 255, 255, 0.6) !important;" data-name="Block">
-                                    <p style="text-align: center;">
-                                        <font style="color: rgb(120, 120, 120);"></font>
-                                        <a class="o_translate_inline btn btn-custom text-o-color-4 bg-o-color-3 mb-2" href="/website/info" style="border-width: 1px; border-style: solid;">
-                                            <span style="font-size: 0.8125rem;">Get a quote</span>
-                                        </a>
-                                        <font style="color: rgb(120, 120, 120);"></font>
-                                    </p>
-                                </div>
-
-                                <div class="o_colored_level o_grid_item g-height-4 g-col-lg-3 col-lg-3" style="border-color: rgba(255, 255, 255, 0.6) !important; --grid-item-padding-x: 0px; z-index: 0; grid-area: 1 / 1 / 5 / 4;" data-name="Block">
-                                    <p style="text-align: center;">
-                                        <font style="color: rgb(120, 120, 120);">
-                                            <img src="/web/image/593-7e6d8da0/Group%20889.png" alt="" class="img img-fluid o_we_custom_image" data-mimetype="image/webp" data-original-id="592" data-original-src="/web/image/592-d089a4a6/Group%20889.png" data-mimetype-before-conversion="image/png" data-resize-width="260" loading="lazy"/>
-                                        </font>
-                                        <br/>
                                     </p>
                                 </div>
                             </div>
@@ -271,127 +232,28 @@
         </xpath>
     </template>
 
-    <template id="marshmallow_hero" name="viva_theme_website Hero Section">
-        <section class="container-2">
-            <div class="content-2">
-                <div class="heading-and">
-                    <div class="frame-2">
-                        <h1 class="heading">Helping you cut the cord once and for all.</h1>
-                        <p class="supporting-text">
-              Seamless transition, zero hassle for reliable, high-quality<br/>
-              streaming — so you can focus on what matters: your content.
-                        </p>
-                    </div>
-                </div>
-                <div class="frame-wrapper">
-                    <div class="div-2">
-                        <div class="content-3">
-                            <div class="frame-3">
-                                <div class="text-3" aria-label="50 percent">50%</div>
-                                <p class="span-wrapper">
-                                    <span class="span">Monthly Bill Reduction*</span>
-                                </p>
-                            </div>
-                            <div class="frame-3">
-                                <div class="text-3" aria-label="44 percent">44%</div>
-                                <p class="text-4">
-                                    <span class="span">Internet Speed Increase*</span>
-                                </p>
-                            </div>
-                            <div class="frame-3">
-                                <div class="text-3" aria-label="99 percent">99%</div>
-                                <div class="text-4">User Satisfaction</div>
-                            </div>
-                        </div>
-                        <p class="p">* All figures are examples or averages of data from users.</p>
-                    </div>
-                </div>
-            </div>
-
-            <aside class="card-wrapper">
-                <div class="card">
-                    <div class="dropshadow" aria-hidden="true"></div>
-                    <div class="frame-4">
-                        <div class="frame-4">
-                            <header class="header-2">
-                                <img class="img" t-att-src="'/viva_theme_website/static/src/img/logo_1.png'" alt="viva_theme_website Streaming Logo"/>
-                                <div class="div-2">
-                                    <h2 class="text-5">See How Much You Can Save.</h2>
-                                    <p class="label">
-                                        <span class="text-wrapper-2">Step 1: Your Current Setup </span>
-                                        <span class="text-wrapper-3">Help us understand what you're working with.</span>
-                                    </p>
-                                </div>
-                            </header>
-
-                            <!-- Thêm id để khớp nút submit form="savings-form" -->
-                            <form class="form" id="savings-form" role="form" aria-label="Savings calculator form">
-                                <div class="div-3">
-                                    <div class="div-3">
-                                        <div class="label-wrapper">
-                                            <label for="monthly-bill" class="label-2">
-                                                <span class="text-wrapper-2">Current Monthly Bill </span>
-                                                <span class="text-wrapper-4">(Internet, TV, Landline, etc.)</span>
-                                            </label>
-                                        </div>
-                                        <div class="input">
-                                            <div class="content-4">
-                                                <input type="number" id="monthly-bill" name="monthly-bill" class="text-6" placeholder="$0.00" min="0" step="0.01" aria-describedby="monthly-bill-help" required="required"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="div-3">
-                                    <div class="div-3">
-                                        <div class="label-wrapper">
-                                            <label for="household-size" class="label-3">Number Of People In The Home</label>
-                                        </div>
-                                        <div class="input">
-                                            <div class="content-4">
-                                                <select id="household-size" name="household-size" class="text-6" required="required" aria-describedby="household-size-help">
-                                                    <option value="">Please select...</option>
-                                                    <option value="1">1 person</option>
-                                                    <option value="2">2 people</option>
-                                                    <option value="3">3 people</option>
-                                                    <option value="4">4 people</option>
-                                                    <option value="5">5+ people</option>
-                                                </select>
-                                                <span class="arrow" aria-hidden="true">
-                                                    <img class="icon" t-att-src="'/viva_theme_website/static/src/img/image.svg'" alt=""/>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-
-                        <div class="actions">
-                            <button type="submit" form="savings-form" class="frame-5">
-                                <span class="text-7">Continue To Next Steps</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </aside>
-        </section>
+    <template id="marshmallow_site_get_a_quote_button" name="viva_theme_website Get A Quote" inherit_id="portal.user_sign_in">
+        <xpath expr="//a[@t-attf-href='/web/login']/ancestor::li[1]" position="before">
+            <li>
+                <a t-attf-href="/contactus" class="btn btn-primary btn-cta">Get A Quote</a>
+            </li>
+        </xpath>
     </template>
 
-    <template id="page_marshmallow_homepage" name="viva_theme_website Homepage">
-        <t t-set="title">viva_theme_website Streaming - Cut the Cord Once and For All</t>
+    <template id="page_marshmallow_homepage" name="Homepage">
+        <t t-set="title">Homepage</t>
         <t t-set="page_description">
       Professional streaming setup, Wi-Fi optimization, and AV installation services. Get started with our cost calculator or request a quote today.
         </t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'homepage'"/>
             <div id="wrap" class="oe_structure oe_empty">
-                <section class="s_cover parallax s_parallax_is_fixed o_cc o_cc5 o_colored_level pt96 pb0" data-scroll-background-ratio="1" data-snippet="s_cover" data-name="Cover">
+                <section class="s_cover parallax s_parallax_is_fixed o_cc o_cc5 o_colored_level pt96 pb96" data-scroll-background-ratio="1" data-snippet="s_cover" data-name="Cover">
                     <span class="s_parallax_bg oe_img_bg o_bg_img_center o_bg_img_origin_border_box" style="background-position: 50% 75%; background-image: url(&quot;/viva_theme_website/static/src/img/homepage/hompage_main_section.jpg&quot;);" data-mimetype="image/webp" data-original-id="549" data-original-src="/viva_theme_website/static/src/img/homepage/hompage_main_section.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="1920"/>
                     <div class="o_we_bg_filter bg-black-50"/>
                     <div class="s_allow_columns container">
-                        <div class="row o_grid_mode" data-row-count="12">
-                            <div class="o_colored_level o_grid_item g-height-11 g-col-lg-6 col-lg-6" style="grid-area: 2 / 1 / 13 / 7; z-index: 1;">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="o_colored_level col-lg-6">
                                 <h1 style="text-align: left;">
                                     <span style="font-size: 3.75rem;">
                                         <strong>Helping you cut the cord once and for all.</strong>
@@ -402,9 +264,6 @@
                                 </p>
                                 <p style="text-align: left;">
                                     <span style="font-size: 1.125rem;">streaming — so you can focus on what matters: your content.</span>
-                                </p>
-                                <p style="text-align: center;">
-                                    <br/>
                                 </p>
                                 <p style="text-align: center;">
                                     <br/>
@@ -455,7 +314,7 @@
                                                 </span>
                                             </p>
                                         </div>
-                                        <div class="col-4 o_colored_level col-lg-11">
+                                        <div class="col-12 o_colored_level col-lg-12">
                                             <p>
                                                 <span style="font-style: italic;" class="o_small-fs">* All figures are examples or averages of data from users.</span>
                                                 <br/>
@@ -464,12 +323,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="o_colored_level o_grid_item g-height-12 g-col-lg-4 col-lg-4" style="z-index: 2; grid-area: 1 / 9 / 13 / 13;">
+                            <div class="o_colored_level col-lg-4">
                                 <div class="s_card card o_colored_level border rounded" data-vxml="001" data-snippet="s_card" data-name="Card" style="border-width: 3px !important; border-color: rgb(255, 255, 255) !important; border-radius: 27.69px !important; background-image: linear-gradient(116deg, rgba(239, 239, 239, 0.6) 0%, rgba(255, 255, 255, 0.08) 100%);">
                                     <div class="card-body">
                                         <section class="s_website_form pt16 pb16" data-vcss="001" data-snippet="s_website_form" data-name="Form">
                                             <div class="container-fluid">
-                                                <form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-pre-fill="true" data-model_name="crm.lead" data-success-mode="redirect" data-success-page="/contactus-thank-you">
+                                                <form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-pre-fill="true" data-model_name="crm.lead" data-success-mode="nothing" data-success-page="/contactus-thank-you">
                                                     <div class="s_website_form_rows row s_col_no_bgcolor">
 
 
@@ -483,7 +342,7 @@
                                                                 <img src="/viva_theme_website/static/src/img/homepage/logo_1.png" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/webp" data-original-id="556" data-original-src="/viva_theme_website/static/src/img/homepage/logo_1.png" data-mimetype-before-conversion="image/png" data-resize-width="63" loading="lazy"/>
                                                             </p>
                                                         </div>
-                                                        <div class="o_colored_level col-lg-12">
+                                                        <div class="o_colored_level col-lg-12 pb24">
                                                             <h5 style="text-align: center;">
                                                                 <span class="h5-fs">
                                                                     <strong>See How Much You Can Save.</strong>
@@ -501,31 +360,37 @@
                                                                 <hr class="w-100 mx-auto" style="border-top-color: rgb(255, 255, 255);"/>
                                                             </div>
                                                         </div>
-                                                        <div data-name="Field" class="s_website_form_field mb-3 col-12 s_website_form_model_required" data-type="char" data-translated-name="Field">
-                                                            <label class="s_website_form_label" style="width: 500px" for="ou6hm3x8dc8p">
+                                                        <div data-name="Field" class="s_website_form_field mb-3 col-12 s_website_form_model_required s_website_form_field_hidden" data-type="char" data-translated-name="Field">
+                                                            <label class="s_website_form_label" style="width: 500px" for="oc5hu1fivouc">
                                                                 <span class="s_website_form_label_content">Current Monthly Bill (Internet, TV, Landline, etc.)</span>
-                                                                <span class="s_website_form_mark">                 *</span>
+                                                                <span class="s_website_form_mark"> *</span>
                                                             </label>
-                                                            <input class="form-control s_website_form_input" type="text" name="name" required="" placeholder="$0.00" id="ou6hm3x8dc8p" data-fill-with="undefined"/>
+                                                            <input class="form-control s_website_form_input" type="text" name="name" required="" placeholder="$0.00" id="oc5hu1fivouc" data-fill-with="undefined"/>
+                                                        </div>
+                                                        <div data-name="Field" class="s_website_form_field mb-3 col-12 s_website_form_custom input-monetary" data-type="integer" data-translated-name="Field">
+                                                            <label class="s_website_form_label" style="width: 500px" for="or4wllbyoryr">
+                                                                <span class="s_website_form_label_content">Current Monthly Bill (Internet, TV, Landline, etc.)</span>
+                                                            </label>
+                                                            <input type="number" class="form-control s_website_form_input" step="1" name="Current Monthly Bill (Internet, TV, Landline, etc.)" placeholder="0.00" id="or4wllbyoryr" data-fill-with="undefined"/>
                                                         </div>
                                                         <div data-name="Field" class="s_website_form_field mb-3 col-12 s_website_form_custom s_website_form_required" data-type="many2one" data-translated-name="Field">
-                                                            <label class="s_website_form_label" style="width: 500px" for="o9stjtsux5kh">
+                                                            <label class="s_website_form_label" style="width: 500px" for="oxhxxat3an2c">
                                                                 <span class="s_website_form_label_content">Number Of People In The Home</span>
-                                                                <span class="s_website_form_mark">                               *</span>
+                                                                <span class="s_website_form_mark">        *</span>
                                                             </label>
-                                                            <select class="form-select s_website_form_input" name="Number Of People In The Home" required="1" id="o9stjtsux5kh">
-                                                                <option id="o9stjtsux5kh0" value="Please select..." selected="selected">Please select...</option>
-                                                                <option id="o9stjtsux5kh1" value="1 person">1 person</option>
-                                                                <option id="o9stjtsux5kh2" value="2 person">2 person</option>
-                                                                <option id="o9stjtsux5kh3" value="3 person">3 person</option>
-                                                                <option id="o9stjtsux5kh4" value="4 person">4 person</option>
-                                                                <option id="o9stjtsux5kh5" value="5+ person">5+ person</option>
+                                                            <select class="form-select s_website_form_input" name="Number Of People In The Home" required="1" id="oxhxxat3an2c">
+                                                                <option id="oxhxxat3an2c0" value="Please select..." selected="selected">Please select...</option>
+                                                                <option id="oxhxxat3an2c1" value="1 person">1 person</option>
+                                                                <option id="oxhxxat3an2c2" value="2 person">2 person</option>
+                                                                <option id="oxhxxat3an2c3" value="3 person">3 person</option>
+                                                                <option id="oxhxxat3an2c4" value="4 person">4 person</option>
+                                                                <option id="oxhxxat3an2c5" value="5+ person">5+ person</option>
                                                             </select>
                                                         </div>
                                                         <div class="mb-0 py-2 col-12 s_website_form_submit text-center s_website_form_no_submit_label" data-name="Submit Button">
                                                             <div style="width: 500px;" class="s_website_form_label"/>
                                                             <span id="s_website_form_result"/>
-                                                            <a href="#" role="button" class="s_website_form_send btn btn-custom" style="border-width: 1px; border-style: solid; background-image: linear-gradient(135deg, rgb(244, 138, 12) 0%, rgb(250, 205, 108) 100%);">
+                                                            <a href="#" role="button" class="s_website_form_send btn btn-custom w-100" style="border-width: 1px; border-style: solid; background-image: linear-gradient(135deg, rgb(244, 138, 12) 0%, rgb(250, 205, 108) 100%);">
                                                                 <span style="font-size: 0.8125rem;">Continue to next steps.</span>
                                                             </a>
                                                         </div>
@@ -540,7 +405,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="s_text_block o_colored_level pb104 pt0" data-snippet="s_text_block" data-name="Text" style="position: relative;">
+                <section class="s_text_block o_colored_level pt0 pb48" data-snippet="s_text_block" data-name="Text" style="position: relative;">
                     <div class="s_allow_columns container">
 
 
@@ -554,10 +419,10 @@
                                 </p>
                                 <br/>
                             </div>
-                            <div class="o_colored_level o_grid_item g-height-6 g-col-lg-8 col-lg-8" style="z-index: 1; grid-area: 3 / 3 / 9 / 11;">
+                            <div class="o_colored_level o_grid_item g-height-6 g-col-lg-12 col-lg-12" style="z-index: 1; grid-area: 3 / 1 / 9 / 13; --grid-item-padding-x: 10px;">
                                 <div class="o_text_columns">
-                                    <div class="row">
-                                        <div class="col-6 o_colored_level col-lg-12">
+                                    <div class="row flex-column justify-content-center align-items-center">
+                                        <div class="o_colored_level col-lg-7 col-md-10 col-12">
                                             <p style="text-align: center;">
                                                 <span class="h1-fs">
                                                     <font style="color: rgb(0, 100, 168);">
@@ -566,103 +431,44 @@
                                                 </span>
                                             </p>
                                         </div>
-                                        <div class="col-6 o_colored_level col-lg-12">
+                                        <div class="o_colored_level col-lg-7 col-md-10 col-12">
                                             <p style="text-align: center;">
                                                 <font style="color: rgb(120, 120, 120);">Marshmallow Streaming gives you the freedom to ditch the fees and take control of your home entertainment setup. We handle the heavy lifting—removing old gear, returning it for you, and installing the latest, no-rental alternatives that fit your needs.</font>
                                             </p>
                                             <p style="text-align: center;"/>
                                         </div>
-                                        <div class="col-6 o_colored_level col-lg-12">
+                                        <div class="o_colored_level col-lg-12 col-12 pt0">
                                             <p style="text-align: center;">
                                                 <font class="text-o-color-3">
-                                                    <span style="font-size: 0.875rem;">
-                                                        <strong>Learn More About Us</strong>
-                                                    </span>
+                                                    <strong>
+                                                        <strong>
+                                                            <a class="o_translate_inline viva-link-primary" href="/contactus">Learn More About Us</a>
+                                                        </strong>
+                                                    </strong>
                                                 </font>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                                <p>
-                                    <font class="text-o-color-3">​</font>
-                                </p>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="s_text_image pt80 o_colored_level pb0" data-snippet="s_text_image" data-name="Text - Image">
+                <section class="s_text_image o_colored_level pb0 pt64" data-snippet="s_text_image" data-name="Text - Image">
                     <div class="container">
-                        <div class="row o_grid_mode" data-row-count="21">
+                        <div class="row o_grid_mode" data-row-count="11">
 
-                            <div class="o_colored_level o_grid_item g-col-lg-12 g-height-9 col-lg-12" style="z-index: 6; grid-area: 12 / 1 / 21 / 13;">
-                                <div class="overflow-hidden">
-                                    <div class="o_text_columns">
-                                        <div class="row">
-                                            <div class="col-4 o_colored_level">
-                                                <p>
-                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon1/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="562" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
-                                                </p>
-                                                <h6 style="text-align: center;">
-                                                    <span style="font-size: 1.125rem;">
-                                                        <font style="color: rgb(63, 141, 232);">
-                                                            <strong>Customize Your Exact Channels</strong>
-                                                        </font>
-                                                    </span>
-                                                </h6>
-                                                <h6 style="text-align: center;">
-                                                    <span class="o_small-fs">
-                                                        <font style="color: rgb(120, 120, 120);">Choose only the channels you actually watch, no fluff. Build a lineup that fits your lifestyle perfectly.</font>
-                                                    </span>
-                                                </h6>
-                                            </div>
-                                            <div class="col-4 o_colored_level">
-                                                <p>
-                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon2/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="563" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
-                                                </p>
-                                                <h6 style="text-align: center;">
-                                                    <span style="font-size: 1.125rem;">
-                                                        <font style="color: rgb(63, 141, 232);">
-                                                            <strong>No Rental Equipment, Fees, Hidden Taxes</strong>
-                                                        </font>
-                                                    </span>
-                                                </h6>
-                                                <h6 style="text-align: center;">
-                                                    <span class="o_small-fs">
-                                                        <font style="color: rgb(120, 120, 120);">Say goodbye to surprise charges, monthly rental fees, and the fine print cable companies love.</font>
-                                                    </span>
-                                                </h6>
-                                            </div>
-                                            <div class="col-4 o_colored_level">
-                                                <p>
-                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon3/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="564" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
-                                                </p>
-                                                <h6 style="text-align: center;">
-                                                    <span style="font-size: 1.125rem;">
-                                                        <strong>
-                                                            <font style="color: rgb(63, 141, 232);">Unlimited Cloud DVR Storage</font>
-                                                        </strong>
-                                                    </span>
-                                                </h6>
-                                                <h6 style="text-align: center;">
-                                                    <span class="o_small-fs">
-                                                        <font style="color: rgb(120, 120, 120);">Record everything you want, whenever you want no space limits, no expiration dates, and no extra fees.</font>
-                                                    </span>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="o_colored_level o_grid_item g-height-10 g-col-lg-7 col-lg-7" style="z-index: 1; grid-area: 1 / 6 / 11 / 13; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px;">
+
+                            <div class="o_colored_level o_grid_item g-height-10 g-col-lg-7 col-lg-7 order-1" style="z-index: 1; grid-area: 1 / 6 / 11 / 13; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px;">
                                 <div class="o_text_columns">
                                     <div class="row"/>
                                 </div>
                                 <p/>
                             </div>
-                            <div class="o_colored_level o_grid_item g-col-lg-5 g-height-10 col-lg-5" style="z-index: 1; grid-area: 2 / 1 / 12 / 6;">
+                            <div class="o_colored_level o_grid_item g-col-lg-5 g-height-10 col-lg-5 order-2" style="z-index: 1; grid-area: 2 / 1 / 12 / 6;">
                                 <div class="o_text_columns">
                                     <div class="row">
-                                        <div class="col-6 o_colored_level col-lg-11">
+                                        <div class="col-12 o_colored_level col-lg-11">
                                             <h2 class="h3-fs">
                                                 <span style="font-size: 2.25rem;">
                                                     <font style="color: rgb(0, 100, 168);">
@@ -678,20 +484,17 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6 o_colored_level col-lg-10">
+                                        <div class="col-12 o_colored_level col-lg-10">
                                             <p style="text-align: justify;">
                                                 <span class="base-fs">
                                                     <font style="color: rgb(120, 120, 120);">We’ll help you find reliable internet service/connection for all of your household needs. Streaming offers instant entertainment like never before. From live TV to on-demand movies, we’ll set you up with the best devices and services for your lifestyle.</font>
                                                 </span>
                                             </p>
-                                            <p style="text-align: justify;">
-                                                <br/>
-                                            </p>
                                         </div>
-                                        <div class="col-6 o_colored_level col-lg-12">
-                                            <h2 class="h3-fs" style="text-align: justify;">
+                                        <div class="col-12 o_colored_level col-lg-12 pt32">
+                                            <h2 class="h3-fs text-lg-start text-center">
                                                 <span class="base-fs">
-                                                    <font style="color: rgb(120, 120, 120);">​                                                        <a href="/website/info" class="btn btn-custom text-o-color-4 bg-o-color-3" style="border-width: 1px; border-style: solid;">Learn More</a>
+                                                    <font style="color: rgb(120, 120, 120);">​                                                        <a href="/website/info" class="btn btn-secondary">Learn More</a>
                                                     </font>
                                                 </span>
                                                 <br/>
@@ -719,7 +522,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="o_colored_level g-height-5 o_grid_item g-col-lg-4 col-lg-4" style="z-index: 7; grid-area: 7 / 9 / 12 / 13; --grid-item-padding-y: 30px;">
+                            <div class="o_colored_level g-height-5 o_grid_item g-col-lg-4 col-lg-4 d-lg-block d-none o_snippet_mobile_invisible" style="z-index: 7; grid-area: 7 / 9 / 12 / 13; --grid-item-padding-y: 30px;" data-invisible="1">
                                 <h2 class="h3-fs">
                                     <span style="font-size: 2.25rem;">
                                         <font style="color: rgb(0, 100, 168);">
@@ -737,71 +540,147 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="o_colored_level g-col-lg-4 o_grid_item g-height-5 col-lg-4" style="z-index: 9; grid-area: 17 / 9 / 22 / 13;">
-                                <p>
-                                    <img src="/viva_theme_website/static/src/img/homepage/Icon6/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="569" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
-                                </p>
-                                <h6 style="text-align: center;">
-                                    <span style="font-size: 1.125rem;">
-                                        <strong>
-                                            <font style="color: rgb(63, 141, 232);">Beautiful, Easy-to-Use Applications</font>
-                                        </strong>
-                                    </span>
-                                </h6>
-                                <p style="text-align: center;">
-                                    <span class="o_small-fs">
-                                        <font style="color: rgb(120, 120, 120);">Stream through intuitive, sleek apps designed for every screen. No learning curve, no confusion just a smooth, modern experience.</font>
-                                    </span>
-                                </p>
-                            </div>
-                            <div class="o_colored_level g-col-lg-4 g-height-5 col-lg-4 o_grid_item" style="z-index: 10; grid-area: 17 / 5 / 22 / 9;">
-                                <p>
-                                    <img src="/viva_theme_website/static/src/img/homepage/Icon5/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="568" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
-                                </p>
-                                <h6 style="text-align: center;">
-                                    <span style="font-size: 1.125rem;">
-                                        <strong>
-                                            <font style="color: rgb(63, 141, 232);">Convenient, Budget-Friendly Plans</font>
-                                        </strong>
-                                    </span>
-                                </h6>
-                                <p style="text-align: center;">
-                                    <span class="o_small-fs">
-                                        <font style="color: rgb(120, 120, 120);">Get all the flexibility and features you need without the bloated cost. Plans fit real budgets, not cable bills.</font>
-                                    </span>
-                                    <br/>
-                                </p>
-                            </div>
-                            <div class="o_colored_level g-col-lg-4 g-height-5 col-lg-4 o_grid_item" style="z-index: 11; grid-area: 17 / 1 / 22 / 5;">
-                                <p>
-                                    <img src="/viva_theme_website/static/src/img/homepage/Icon4/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="567" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
-                                </p>
-                                <h6 style="text-align: center;">
-                                    <span style="font-size: 1.125rem;">
-                                        <strong>
-                                            <font style="color: rgb(63, 141, 232);">Stream Your Content from Anywhere</font>
-                                        </strong>
-                                    </span>
-                                </h6>
-                                <p style="text-align: center;">
-                                    <span class="o_small-fs">
-                                        <font style="color: rgb(120, 120, 120);">Watch live TV and recorded shows on any device, at home or on the go. Your content travels with you.</font>
-                                    </span>
-                                </p>
-                            </div>
+
+
+
                         </div>
                     </div>
                 </section>
-                <section class="s_text_image pb80 o_colored_level pt0" data-snippet="s_text_image" data-name="Text - Image">
+                <section class="s_text_image o_colored_level pb0 pt64" data-snippet="s_text_image" data-name="Text - Image">
                     <div class="container">
-                        <div class="row o_grid_mode" data-row-count="16">
+                        <div class="row align-items-stretch">
 
-                            <div class="o_grid_item o_colored_level rounded shadow g-col-lg-8 g-height-4 col-lg-8" style="z-index: 12; background-image: linear-gradient(135deg, rgb(244, 138, 12) 0%, rgb(250, 205, 108) 100%); border-radius: 200px !important; box-shadow: rgba(246, 158, 41, 0.5) 0px 6px 32px 4px !important; grid-area: 2 / 3 / 6 / 11;"/>
-                            <div class="o_grid_item o_colored_level o_cc o_cc1 g-col-lg-12 g-height-2 col-lg-12" style="z-index: 12; grid-area: 1 / 1 / 3 / 13;"/>
-                            <div class="o_grid_item o_colored_level rounded g-height-4 g-col-lg-10 col-lg-10" style="background-image: linear-gradient(135deg, rgb(244, 138, 12) 0%, rgb(250, 205, 108) 100%); border-radius: 200px !important; z-index: 12; grid-area: 2 / 2 / 6 / 12;">
+                            <div class="o_colored_level col-lg-12">
+                                <div class="overflow-hidden">
+                                    <div class="o_text_columns">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-6 col-12 o_colored_level pb-5">
+                                                <p>
+                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon1/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="562" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                                </p>
+                                                <h6 style="text-align: center;">
+                                                    <span style="font-size: 1.125rem;">
+                                                        <font style="color: rgb(63, 141, 232);">
+                                                            <strong>Customize Your Exact Channels</strong>
+                                                        </font>
+                                                    </span>
+                                                </h6>
+                                                <h6 style="text-align: center;">
+                                                    <span class="o_small-fs">
+                                                        <font style="color: rgb(120, 120, 120);">Choose only the channels you actually watch, no fluff. Build a lineup that fits your lifestyle perfectly.</font>
+                                                    </span>
+                                                </h6>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-12 o_colored_level pb-5">
+                                                <p>
+                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon2/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="563" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                                </p>
+                                                <h6 style="text-align: center;">
+                                                    <span style="font-size: 1.125rem;">
+                                                        <font style="color: rgb(63, 141, 232);">
+                                                            <strong>No Rental Equipment, Fees, Hidden Taxes</strong>
+                                                        </font>
+                                                    </span>
+                                                </h6>
+                                                <h6 style="text-align: center;">
+                                                    <span class="o_small-fs">
+                                                        <font style="color: rgb(120, 120, 120);">Say goodbye to surprise charges, monthly rental fees, and the fine print cable companies love.</font>
+                                                    </span>
+                                                </h6>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-12 o_colored_level pb-5">
+                                                <p>
+                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon3/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="564" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                                </p>
+                                                <h6 style="text-align: center;">
+                                                    <span style="font-size: 1.125rem;">
+                                                        <strong>
+                                                            <font style="color: rgb(63, 141, 232);">Unlimited Cloud DVR Storage</font>
+                                                        </strong>
+                                                    </span>
+                                                </h6>
+                                                <h6 style="text-align: center;">
+                                                    <span class="o_small-fs">
+                                                        <font style="color: rgb(120, 120, 120);">Record everything you want, whenever you want no space limits, no expiration dates, and no extra fees.</font>
+                                                    </span>
+                                                </h6>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-12 o_colored_level pb-5">
+                                                <p>
+                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon6/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="569" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                                </p>
+                                                <h6 style="text-align: center;">
+                                                    <span style="font-size: 1.125rem;">
+                                                        <strong>
+                                                            <font style="color: rgb(63, 141, 232);">Beautiful, Easy-to-Use Applications</font>
+                                                        </strong>
+                                                    </span>
+                                                </h6>
+                                                <p style="text-align: center;">
+                                                    <span class="o_small-fs">
+                                                        <font style="color: rgb(120, 120, 120);">Stream through intuitive, sleek apps designed for every screen. No learning curve, no confusion just a smooth, modern experience.</font>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-12 o_colored_level pb-5">
+                                                <p>
+                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon5/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="568" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                                </p>
+                                                <h6 style="text-align: center;">
+                                                    <span style="font-size: 1.125rem;">
+                                                        <strong>
+                                                            <font style="color: rgb(63, 141, 232);">Convenient, Budget-Friendly Plans</font>
+                                                        </strong>
+                                                    </span>
+                                                </h6>
+                                                <p style="text-align: center;">
+                                                    <span class="o_small-fs">
+                                                        <font style="color: rgb(120, 120, 120);">Get all the flexibility and features you need without the bloated cost. Plans fit real budgets, not cable bills.</font>
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-12 o_colored_level pb-5">
+                                                <p>
+                                                    <img src="/viva_theme_website/static/src/img/homepage/Icon4/Featured%20icon%402x.svg" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/svg+xml" data-original-id="567" data-original-src="/viva_theme_website/static/src/img/homepage/Featured%20icon%402x.svg" data-mimetype-before-conversion="image/svg+xml" loading="lazy"/>
+                                                </p>
+                                                <h6 style="text-align: center;">
+                                                    <span style="font-size: 1.125rem;">
+                                                        <strong>
+                                                            <font style="color: rgb(63, 141, 232);">Stream Your Content from Anywhere</font>
+                                                        </strong>
+                                                    </span>
+                                                </h6>
+                                                <p style="text-align: center;">
+                                                    <span class="o_small-fs">
+                                                        <font style="color: rgb(120, 120, 120);">Watch live TV and recorded shows on any device, at home or on the go. Your content travels with you.</font>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </section>
+                <section class="s_text_image o_colored_level pt32 pb64" data-snippet="s_text_image" data-name="Text - Image">
+                    <div class="container">
+                        <div class="row justify-content-center">
+
+
+
+                            <div class="o_colored_level rounded col-lg-10 shadow" style="/* z-index: -99; */background-image: linear-gradient(135deg, rgb(244, 138, 12) 0%, rgb(250, 205, 108) 100%);border-radius: 200px !important;box-shadow: rgb(244, 138, 12) 0px 8px 30px -10px !important;">
                                 <div class="o_text_columns">
-                                    <div class="row">
-                                        <div class="col-6 o_colored_level col-lg-6 offset-lg-2 pt48">
+                                    <div class="row justify-content-around align-items-center mx-5 pt40 pb32 px-5">
+                                        <div class="col-lg-8 col-12 o_colored_level">
                                             <h4>
                                                 <span class="h4-fs">
                                                     <font class="text-o-color-4">
@@ -817,31 +696,39 @@
                                                 </font>
                                             </p>
                                         </div>
-                                        <div class="col-6 o_colored_level pt64 offset-lg-1 col-lg-3">
-                                            <p>
-                                                <a class="o_translate_inline btn btn-outline-custom text-o-color-4 bg-o-color-2" href="/register" style="border-style: solid; border-width: 2px; border-color: rgb(255, 255, 255);">
+                                        <div class="col-lg-4 col-12 o_colored_level z-1">
+                                            <p class="text-center">
+                                                <a class="o_translate_inline btn btn-outline-secondary text-center" href="/register">
                                                     <span style="font-size: 0.8125rem;">
-                                                        <strong>Cost Cal​​​​​​culator</strong>
-                                                    </span>
-                                                </a>
+                                                        <strong>Cost Calculator</strong>
+                                                    </span>&amp;nbsp;</a>
                                                 <br/>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
+                                <img src="/viva_theme_website/static/src/img/homepage/Dots%20Background.png" alt="" class="decor-right" data-mimetype="image/png" data-original-id="572" data-original-src="/viva_theme_website/static/src/img/homepage/Dots%20Background.png" data-mimetype-before-conversion="image/png" loading="lazy"/>
                             </div>
-                            <div class="o_grid_item o_grid_item_image o_colored_level g-height-4 g-col-lg-3 col-lg-3" style="z-index: 13; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px; grid-area: 2 / 9 / 6 / 12;">
-                                <img src="/viva_theme_website/static/src/img/homepage/Dots%20Background.png" alt="" class="img img-fluid o_we_custom_image" data-mimetype="image/png" data-original-id="572" data-original-src="/viva_theme_website/static/src/img/homepage/Dots%20Background.png" data-mimetype-before-conversion="image/png" loading="lazy" style="width: 100% !important;"/>
-                            </div>
-                            <div class="o_grid_item o_colored_level g-col-lg-10 g-height-5 col-lg-10" style="z-index: 14; grid-area: 9 / 2 / 14 / 12;">
-                                <div class="o_text_columns">
-                                    <div class="row"/>
-                                </div>
-                            </div>
-                            <div class="o_grid_item o_colored_level g-col-lg-10 g-height-5 col-lg-10" style="z-index: 14; grid-area: 9 / 2 / 14 / 12;">
+
+
+
+
+                        </div>
+                    </div>
+                </section>
+                <section class="s_text_image pb80 o_colored_level pt40" data-snippet="s_text_image" data-name="Text - Image">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-center">
+
+
+
+
+
+
+                            <div class="o_colored_level col-lg-10">
                                 <div class="o_text_columns">
                                     <div class="row">
-                                        <div class="col-6 o_colored_level col-lg-12">
+                                        <div class="o_colored_level col-lg-12 col-12 pb48">
                                             <h1 style="text-align: center;">
                                                 <font style="color: rgb(0, 100, 168);">We <strong>cancel your contracts, return your rentals</strong>, and <strong>handle the details</strong> so you can just sit back and relax.</font>
                                             </h1>
@@ -849,15 +736,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="o_grid_item o_colored_level g-col-lg-6 g-height-2 col-lg-6" style="z-index: 14; grid-area: 15 / 4 / 17 / 10;">
+                            <div class="o_colored_level col-lg-6">
                                 <div class="o_text_columns">
-                                    <div class="row">
-                                        <div class="col-4o_colored_level col-lg-4 o_colored_level">
+                                    <div class="row align-items-center justify-content-center">
+
+                                        <div class="col-4 o_colored_level">
                                             <p>
                                                 <img src="/viva_theme_website/static/src/img/homepage/Group%20896.png" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/webp" data-original-id="574" data-original-src="/viva_theme_website/static/src/img/homepage/Group%20896.png" data-mimetype-before-conversion="image/png" data-resize-width="184" loading="lazy"/>
                                             </p>
                                         </div>
-                                        <div class="col-4 o_colored_level">
+                                        <div class="col-4 o_colored_level pt0">
                                             <p>
                                                 <img src="/viva_theme_website/static/src/img/homepage/Vector.png" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/webp" data-original-id="575" data-original-src="/viva_theme_website/static/src/img/homepage/Vector.png" data-mimetype-before-conversion="image/png" data-resize-width="151" loading="lazy"/>
                                             </p>
@@ -867,6 +755,7 @@
                                                 <img src="/viva_theme_website/static/src/img/homepage/Group%20895.png" alt="" class="img img-fluid o_we_custom_image mx-auto d-block" data-mimetype="image/webp" data-original-id="576" data-original-src="/viva_theme_website/static/src/img/homepage/Group%20895.png" data-mimetype-before-conversion="image/png" data-resize-width="147" loading="lazy"/>
                                             </p>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -874,10 +763,9 @@
                     </div>
                 </section>
                 <section class="s_carousel_intro_wrapper p-0" data-snippet="s_carousel_intro" data-name="Carousel Intro">
-                    <div class="s_carousel_intro s_carousel_default carousel slide o_colored_level carousel-dark oe_img_bg o_bg_img_center o_bg_img_origin_border_box" data-bs-ride="true" data-bs-interval="10000" id="myCarousel1757756039455" style="background-image: url(&quot;/viva_theme_website/static/src/img/homepage/testimonials.jpg&quot;) !important;" data-mimetype="image/webp" data-original-id="580" data-original-src="/viva_theme_website/static/src/img/homepage/testimonials.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="1440">
+                    <div class="s_carousel_intro s_carousel_default carousel o_colored_level carousel-dark pointer-event oe_img_bg o_bg_img_center o_bg_img_origin_border_box slide" data-bs-ride="true" data-bs-interval="10000" id="myCarousel1757756039455" style="background-image: url(&quot;/viva_theme_website/static/src/img/homepage/testimonials.jpg&quot;) !important;" data-mimetype="image/webp" data-original-id="580" data-original-src="/viva_theme_website/static/src/img/homepage/testimonials.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="1440">
 
                         <div class="carousel-inner">
-
                             <div class="s_carousel_intro_item carousel-item px-0 pt72 pb96 o_colored_level active" data-name="Slide" style="">
                                 <div class="container">
                                     <div class="row o_grid_mode" data-row-count="8">
@@ -889,6 +777,15 @@
                                                     </span>
                                                 </font>
                                             </h1>
+                                            <p class="d-flex justify-content-lg-start justify-content-center align-items-center pt16">
+
+                                                <button class="btn btn-circle btn-outline-secondary mx-2">
+                                                    <i class="fa fa-arrow-left"/>
+                                                </button>
+                                                <button class="btn btn-circle btn-outline-secondary mx-2">
+                                                    <i class="fa fa-arrow-right"/>
+                                                </button>
+                                            </p>
                                         </div>
                                         <div class="o_grid_item o_colored_level border rounded g-col-lg-4 g-height-8 col-lg-4" style="z-index: 1; --grid-item-padding-y: 32px; --grid-item-padding-x: 32px; border-width: 2px !important; border-radius: 25px !important; border-color: rgba(255, 255, 255, 0.6) !important; background-image: linear-gradient(135deg, rgba(239, 239, 239, 0.6) 0%, rgba(255, 255, 255, 0.08) 100%); grid-area: 1 / 7 / 9 / 11;" data-name="Block">
                                             <p style="text-align: justify;">​                                                <span class="o_stars o_five_stars" id="checkId-1">
@@ -925,72 +822,41 @@ Arlington Heights, IL</span>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="s_carousel_intro_item carousel-item o_cc o_cc1 px-0 pt72 pb96 o_colored_level" data-name="Slide" style="">
-                                <div class="container">
-                                    <div class="row o_grid_mode" data-row-count="8">
-                                        <div class="o_grid_item g-height-5 g-col-lg-6 col-lg-6 o_colored_level" style="z-index: 1; grid-area: 1 / 7 / 6 / 13;" data-name="Block">
-                                            <h2 class="display-3-fs o_default_snippet_text">Innovating for business success</h2>
-                                        </div>
-                                        <div class="o_grid_item g-height-2 g-col-lg-4 col-lg-4 o_colored_level" style="z-index: 2; grid-area: 7 / 7 / 9 / 11; --grid-item-padding-y: 20px;" data-name="Block">
-                                            <p class="lead o_default_snippet_text">Creating solutions that drive growth and long-term value.</p>
-                                        </div>
-                                        <div class="o_grid_item o_grid_item_image g-height-7 g-col-lg-5 col-lg-5 o_colored_level" style="z-index: 3; grid-area: 2 / 1 / 9 / 6;" data-name="Block">
-                                            <img src="/viva_theme_website/static/src/img/homepagerousel_intro_default_image_2" alt="" class="img img-fluid" loading="lazy" data-mimetype="image/jpeg" data-original-id="277" data-original-src="/website/static/src/img/snippets_demo/s_image_title_default_image.jpg" data-mimetype-before-conversion="image/jpeg"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="s_carousel_intro_item carousel-item o_cc o_cc1 px-0 pt72 pb96 o_colored_level" data-name="Slide" style="">
-                                <div class="container">
-                                    <div class="row o_grid_mode" data-row-count="8">
-                                        <div class="o_grid_item g-height-8 g-col-lg-5 col-lg-5 o_colored_level" style="z-index: 1; grid-area: 1 / 1 / 9 / 6;" data-name="Box">
-                                            <h2 class="display-3-fs o_default_snippet_text">Leading the future with innovation and strategy</h2>
-                                        </div>
-                                        <div class="o_grid_item g-height-4 g-col-lg-4 col-lg-4 o_colored_level" style="z-index: 2; grid-area: 5 / 9 / 9 / 13;" data-name="Box">
-                                            <p class="lead o_default_snippet_text">We combine strategic insights and innovative solutions to drive business success, ensuring sustainable growth and competitive advantage in a dynamic market.</p>
-                                        </div>
-                                        <div class="o_grid_item o_grid_item_image g-height-8 g-col-lg-3 col-lg-3 o_colored_level" style="z-index: 3; grid-area: 1 / 6 / 9 / 9;" data-name="Box">
-                                            <img src="/viva_theme_website/static/src/img/homepagerousel_intro_default_image_3" alt="" class="img img-fluid" loading="lazy" data-mimetype="image/jpeg" data-original-id="278" data-original-src="/website/static/src/img/snippets_demo/s_banner_3.jpg" data-mimetype-before-conversion="image/jpeg"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div class="s_carousel_intro_controllers container position-absolute start-50 bottom-0 translate-middle-x w-100 mb-md-4 o_not_editable">
                             <div class="s_carousel_intro_controllers_row row gap-3 gap-lg-5 justify-content-between flex-nowrap flex-row-reverse">
 
                                 <div class="o_arrows_wrapper gap-2 w-auto p-0">
-                                    <button class="carousel-control-prev o_not_editable o_we_no_overlay" aria-label="Previous" title="Previous" data-bs-target="#myCarousel1757756039455" data-bs-slide="prev">
+                                    <button class="carousel-control-prev o_not_editable o_we_no_overlay d-none" aria-label="Previous" title="Previous" data-bs-target="#myCarousel1757756039455" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"/>
                                         <span class="visually-hidden o_default_snippet_text">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next o_not_editable o_we_no_overlay" aria-label="Next" title="Next" data-bs-target="#myCarousel1757756039455" data-bs-slide="next">
+                                    <button class="carousel-control-next o_not_editable o_we_no_overlay d-none" aria-label="Next" title="Next" data-bs-target="#myCarousel1757756039455" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"/>
                                         <span class="visually-hidden o_default_snippet_text">Next</span>
                                     </button>
                                 </div>
 
-                                <div class="s_carousel_indicators_numbers carousel-indicators align-items-center flex-shrink-1 w-auto o_we_no_overlay">
+                                <div class="s_carousel_indicators_numbers carousel-indicators align-items-center flex-shrink-1 w-auto o_we_no_overlay d-none">
                                     <button type="button" aria-label="Carousel indicator" data-bs-target="#myCarousel1757756039455" class="active" data-bs-slide-to="0" aria-current="true"/>
-                                    <button type="button" aria-label="Carousel indicator" data-bs-target="#myCarousel1757756039455" data-bs-slide-to="1"/>
-                                    <button type="button" aria-label="Carousel indicator" data-bs-target="#myCarousel1757756039455" data-bs-slide-to="2"/>
+
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="s_text_image pt80 pb80 o_colored_level" data-snippet="s_image_text" data-name="Image - Text">
+                <section class="s_text_image pb80 o_colored_level pt72" data-snippet="s_image_text" data-name="Image - Text">
                     <div class="container">
-                        <div class="row o_grid_mode" data-row-count="11">
-                            <div class="o_colored_level o_grid_item o_grid_item_image g-height-10 g-col-lg-6 col-lg-6" style="grid-area: 1 / 1 / 11 / 7; z-index: 1; --grid-item-padding-y: 0px;">
+                        <div class="row justify-content-around align-items-center">
+                            <div class="o_colored_level col-lg-6 pb64 pt56">
                                 <img src="/viva_theme_website/static/src/img/homepage/Image.png" alt="" class="img img-fluid mx-auto o_we_custom_image rounded" data-mimetype="image/webp" data-original-id="584" data-original-src="/viva_theme_website/static/src/img/homepage/Image.png" data-mimetype-before-conversion="image/png" data-resize-width="655" loading="lazy"/>
+                                <img src="/viva_theme_website/static/src/img/homepage/Group%20889.png" alt="" class="decor-bottom-left" data-mimetype="image/webp" data-original-id="592" data-original-src="/viva_theme_website/static/src/img/homepage/Group%20889.png" data-mimetype-before-conversion="image/png" data-resize-width="260" loading="lazy"/>
                             </div>
-                            <div class="o_colored_level o_grid_item g-col-lg-5 g-height-10 col-lg-5" style="z-index: 2; grid-area: 2 / 8 / 12 / 13; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px;">
+                            <div class="o_colored_level col-lg-5">
                                 <div class="o_text_columns">
                                     <div class="row">
-                                        <div class="col-6 o_colored_level col-lg-11">
+                                        <div class="o_colored_level col-lg-11 col-12">
                                             <h1>
                                                 <strong>
                                                     <font style="color: rgb(0, 100, 168);">Upgrade your business tech with no headaches.</font>
@@ -1004,13 +870,13 @@ Arlington Heights, IL</span>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6 o_colored_level col-lg-12">
+                                        <div class="o_colored_level col-lg-12 col-12 pt0">
                                             <p style="text-align: left;">
                                                 <font style="color: rgb(120, 120, 120);">From smarter office AV systems to small business security and networking, we make tech upgrades easy. Our team handles everything from setup to support so you can focus on running your business. Get reliable, professional-grade solutions without the stress, delays, or confusing contracts.</font>
                                             </p>
                                         </div>
-                                        <div class="col-6 o_colored_level col-lg-12">
-                                            <p style="text-align: left;">
+                                        <div class="o_colored_level col-lg-12 col-12 pt16">
+                                            <p class="text-lg-start text-center">
                                                 <font style="color: rgb(120, 120, 120);">
                                                     <a class="o_translate_inline btn btn-custom text-white bg-o-color-3" href="/website/info" style="border-width: 1px; border-style: solid;">
                                                         <span style="font-size: 0.8125rem;">
@@ -1018,30 +884,16 @@ Arlington Heights, IL</span>
                                                         </span>
                                                     </a>
                                                 </font>
-                                                <span style="font-size: 0.8125rem;">
-                                                    <font style="color: rgb(120, 120, 120);">
-                                                        <strong>​</strong>
-                                                    </font>
-                                                </span>
-                                                <strong>
-                                                    <br/>
-                                                </strong>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                                <p>
-                                    <span style="font-size: 0.8125rem;">
-                                        <strong>​​</strong>
-                                    </span>
-                                </p>
                             </div>
                         </div>
                     </div>
                 </section>
             </div>
         </t>
-
     </template>
 
 

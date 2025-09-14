@@ -1,0 +1,150 @@
+.viva-link-primary {
+  color: #F48A0C !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+
+  &:hover {
+    color: #F48A0C !important;
+    text-decoration: underline !important;
+  }
+}
+
+.btn-cta {
+  font-weight: 600;
+
+  &:hover {
+    background-color: #F48A0C !important;
+    color: #fff !important;
+    border-color: #F48A0C !important;
+  }
+}
+
+.nav-link {
+
+  &:hover {
+    color: #F48A0C !important;
+    text-decoration: none !important;
+  }
+}
+
+.input-monetary {
+  position: relative;
+
+  &::before {
+    content: "$";
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    color: #6c757d;
+  }
+
+  input:not(:placeholder-shown)+&::before {
+    color: #212529;
+  }
+
+  input {
+    padding-left: 20px;
+  }
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  color: #F48A0C;
+  border: 1px solid #F48A0C;
+  font-weight: 500;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #F48A0C;
+    color: #fff;
+    border-color: #F48A0C;
+  }
+
+  &:focus,
+  &:active {
+    background-color: #F48A0C;
+    color: #fff;
+    border-color: #F48A0C;
+    box-shadow: 0 0 0 0.25rem rgba(244, 138, 12, 0.25);
+  }
+}
+
+
+.btn-secondary {
+  background-color: #F48A0C;
+  color: #fff;
+  border: 1px solid #F48A0C;
+  font-weight: 500;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #fff;
+    color: #F48A0C;
+    border: 1px solid #F48A0C;
+  }
+}
+
+.btn-outline-secondary {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 500;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #fff;
+    color: #F48A0C;
+    border-color: #fff;
+  }
+}
+
+.decor-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-height: 100%;
+  height: 100%;
+}
+
+.decor-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-height: 100%;
+  height: 100%;
+}
+
+
+.decor-bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-height: 100%;
+  z-index: -1;
+}
+
+.btn-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 1.25rem;
+}
+
+.s_social_media {
+
+  i {
+    color: inherit;
+    transition: all 0.2s;
+
+    &:hover {
+      color: #fff !important;
+      background-color: #F48A0C !important;
+    }
+  }
+}
