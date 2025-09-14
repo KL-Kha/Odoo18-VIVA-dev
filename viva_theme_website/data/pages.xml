@@ -3,7 +3,7 @@
 
     <data noupdate="0">
         <record id="website_page_marshmallow" model="website.page">
-            <field name="name">viva_theme_website homepage</field>
+            <field name="name">Homepage</field>
             <field name="url">/home</field>
             <field name="view_id" ref="viva_theme_website.page_marshmallow_homepage"/>
             <field name="is_published">True</field>

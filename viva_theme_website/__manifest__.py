@@ -25,9 +25,10 @@
         "data/pages.xml",
     ],
     "assets": {
-        'web.assets_frontend': [
-            'viva_theme_website/static/src/**/*',
-            # 'viva_theme_website/static/src/img/**/*',
+        "web.assets_frontend": [
+            "viva_theme_website/static/src/lib/*",
+            "viva_theme_website/static/src/css/*",
+            "viva_theme_website/static/src/js/*",
         ],
     },
     "license": "LGPL-3",
